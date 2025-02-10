@@ -1,0 +1,49 @@
+#my-menu-container {
+    position: fixed;
+    background-color: var(--corFundo);
+    box-shadow: var(--corSombra);
+    width: 100%;
+    z-index: 100;
+}
+
+#my-menu-logo {
+    color: var(--corPrimaria);
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+}
+
+#my-menu-togglerIcon{
+    color: var(--corPrimaria);
+    font-size: 20px;
+}
+
+#my-menu-navegacao a {
+    color: var(--corPrimaria);
+    font-size: 16px;
+    text-decoration: none;
+    user-select: none;
+}
+
+#my-menu-navegacao a:hover {
+    color: var(--corDestaque);
+}
+
+#my-menu-navegacao li i {
+    color: var(--corPrimaria);
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#my-menu-navegacao li i:hover {
+    opacity: 80%;
+}
+
+@media (max-width: 992px) {
+    #my-menu-navegacao a, 
+    #my-menu-navegacao li i {
+        font-size: 20px;
+    }
+}
