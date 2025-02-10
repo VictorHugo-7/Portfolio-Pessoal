@@ -30,8 +30,9 @@ body.dark-mode {
     --corSecundaria: #F1F1F1;
     --corSombra: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
 
+    --corPreto: #000000;
     --corCinza: #6C757D;
-    --corDestaque: #42D0E1;
+    --corDestaque: #007AB9;
 }
 
 .dark-mode {
@@ -40,6 +41,7 @@ body.dark-mode {
     --corSecundaria: #2B3139;
     --corSombra: 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
 
+    --corPreto: #000000;
     --corCinza: #6C757D;
-    --corDestaque: #42D0E1;
+    --corDestaque: #007AB9;
 }
