@@ -1,0 +1,9 @@
+#my-rodape {
+    background-color: var(--corPreto);
+    color: var(--corCinza);
+    text-align: center;
+}
+
+#my-rodape div {
+    font-size: 12px;
+}

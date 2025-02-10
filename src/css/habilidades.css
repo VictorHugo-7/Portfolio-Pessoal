@@ -1,0 +1,24 @@
+.my-s1Habilidades-cardContainer{
+    background-color: var(--corFundo) !important;
+    color: var(--corPrimaria) !important;
+    box-shadow: var(--corSombra);
+    border: none !important;
+    height: 100% !important;
+    text-align: center;
+}
+
+.my-s1Habilidades-cardContainer img {
+    margin: 5px; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.my-s1Habilidades-cardContainer {
+    margin: 5px; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.my-s1Habilidades-cardContainer:hover {
+    transform: scale(1.03);
+}
+
+

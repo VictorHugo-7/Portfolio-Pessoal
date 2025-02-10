@@ -1,52 +1,42 @@
-.my-section1-texto1 {
+.my-s1Sobre-texto1 {
     color: var(--corPrimaria);
 }
 
-.my-section1-texto2 {
+.my-s1Sobre-texto2 {
     color: var(--corDestaque);
     font-weight: 600;
 }
 
-.my-section1-texto3 {
+.my-s1Sobre-texto3 {
     color: var(--corCinza);
 }
 
-.my-section1-icones {
+.my-s1Sobre-icones {
     height: 30px;
 }
 
-.my-section1-icones:hover {
+.my-s1Sobre-icones:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
 
-#my-section1-fotoVictorHugo {
+#my-s1Sobre-fotoVictorHugo {
     margin-left: 110px;
     width: 400px;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
-#my-section1-fotoVictorHugo:hover {
+#my-s1Sobre-fotoVictorHugo:hover {
     transform: scale(1.01);
 }
 
-#my-rodape {
-    background-color: var(--corPreto);
-    color: var(--corCinza);
-    text-align: center;
-}
-
-#my-rodape div {
-    font-size: 12px;
-}
-
 @media (max-width: 992px) {
-    #my-section1-container {
+    #my-s1Sobre-container {
         flex-direction: column;
     }
 
-    #my-section1-fotoVictorHugo {
+    #my-s1Sobre-fotoVictorHugo {
         margin-left: 0px;
         margin-top: 40px;
         width: 240px;
