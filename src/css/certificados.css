@@ -1,0 +1,134 @@
+.my-s1Cerificados-modalContainer {
+    background-color: var(--corFundo) !important;
+    box-shadow: var(--corSombra) !important;
+}
+
+.my-s1Cerificados-modalContainer .modal-header .modal-title {
+    color: var(--corPrimaria) !important;
+}
+
+.my-s1Cerificados-modalContainer .modal-header {
+    border-bottom: 1px solid var(--corCinza);
+}
+
+
+.my-s1Cerificados-modalContainer .modal-header button i {
+    color: var(--corCinza);
+    font-size: 20px;
+}
+
+.my-s1Cerificados-modalContainer .modal-body div h6 {
+    color: var(--corPrimaria) !important;
+}
+
+.modal-body img {
+    border: 1.5px solid var(--corSecundaria) !important;
+    border-radius: 5px;
+}
+
+.modal-body div p {
+    color: var(--corCinza);
+    font-size: 12px;
+}
+
+@media (max-width: 992px) {
+    .modal-body {
+        flex-direction: column;
+    }
+
+    .modal-body img {
+        max-width: 100% !important;
+        border: 0.1px solid black;
+    }
+
+    .modal-body div h6 {
+        margin-top: 30px;
+    }
+}
+
+.my-s1Certificados-titulo {
+    color: var(--corPrimaria);
+    display: inline-block;
+    position: relative;
+}
+
+.my-s1Certificados-titulo::after {
+    position: absolute;
+    display: block;
+    background-color: var(--corDestaque);
+    content: "";
+    border-radius: 20px;
+    width: 30px;
+    height: 3px;
+    margin: 2px 0px;
+    left: 0;
+}
+
+.my-s1Certificados-cardContainer {
+    background-color: var(--corFundo) !important;
+    color: var(--corPrimaria) !important;
+    box-shadow: var(--corSombra);
+    border: none !important;
+    height: 100% !important;
+    transition: transform 0.3s;
+}
+
+.my-s1Certificados-cardContainer:hover {
+    transform: translateY(-3px);
+}
+
+.my-s1Certificados-cardBody img {
+    border-radius: 5px;
+}
+
+.my-s1Certificados-cardBody #my-s1Certificados-cardTexto1 {
+    color: var(--corPrimaria);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.my-s1Certificados-cardBody #my-s1Certificados-cardTexto2 {
+    color: var(--corCinza);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.my-s1Certificados-cardBody #my-s1Certificados-cardTexto3 {
+    color: var(--corCinza);
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .my-s1Certificados-cardContainer .my-s1Certificados-cardBody {
+        align-items: start !important; 
+    }
+
+    .my-s1Certificados-cardBody img {
+        height: 60px;
+    }
+}
+
+.my-s1Certificados-cardFooter {
+    background-color: var(--corFundo) !important;
+    border-top: 2px solid var(--corSecundaria) !important;
+}
+
+.my-s1Certificados-cardFooter a i {
+    color: var(--corDestaque);
+    font-size: 20px;
+}
+
+.my-s1Certificados-cardFooter a i:hover {
+    transform: scale(1.1);
+}
+
+.my-s1Certificados-cardFooter a {
+    color: var(--corDestaque);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.my-s1Certificados-cardFooter a:hover {
+    text-decoration: underline;
+}
