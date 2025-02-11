@@ -1,0 +1,73 @@
+.my-s1Projetos-titulo {
+    color: var(--corPrimaria);
+    display: inline-block;
+    position: relative;
+}
+
+.my-s1Projetos-titulo::after {
+    position: absolute;
+    display: block;
+    background-color: var(--corDestaque);
+    content: "";
+    border-radius: 20px;
+    width: 30px;
+    height: 3px;
+    margin: 2px 0px;
+    left: 0;
+}
+
+.my-s1Projetos-cardContainer {
+    background-color: var(--corFundo) !important;
+    color: var(--corPrimaria) !important;
+    box-shadow: var(--corSombra);
+    border: none !important;
+    height: 100% !important;
+    transition: transform 0.3s;
+}
+
+.my-s1Projetos-cardContainer:hover {
+    transform: translateY(-5px);
+}
+
+.my-s1Projetos-cardContainer h5 {
+    color: var(--corPrimaria);
+}
+
+.my-s1Projetos-cardContainer h6 {
+    color: var(--corCinza);
+    font-weight: bold;
+}
+
+.my-s1Projetos-cardContainer p {
+    color: var(--corCinza);
+    font-size: 14px;
+}
+
+.my-s1Projetos-cardImg {
+    text-align: center;
+}
+
+.my-s1Projetos-cardTecnologias span {
+    display: inline-block;
+    color: var(--corPrimaria);
+    background-color: var(--corSecundaria);
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.my-s1Projetos-cardFooter {
+    background-color: var(--corFundo) !important;
+    border-top: 2px solid var(--corSecundaria) !important;
+}
+
+.my-s1Projetos-cardFooter div a i,
+.my-s1Projetos-cardFooter span i {
+    color: var(--corDestaque);
+    font-size: 20px !important;
+}
+
+.my-s1Projetos-cardFooter div a i:hover {
+    transform: scale(1.1) !important;
+}
