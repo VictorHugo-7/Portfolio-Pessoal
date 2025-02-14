@@ -20,7 +20,8 @@
 
 <!--PROTÓTIPO-->
 ## Protótipo
-![Protótipo](https://github.com/user-attachments/assets/b6271f24-07c3-4cce-8a17-03e86e313b07)
+![Protótipo](https://github.com/user-attachments/assets/b711b746-9189-4db5-b470-9b38f000a968)
+
 
 
 
