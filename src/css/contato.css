@@ -21,6 +21,7 @@
     box-shadow: var(--corSombra);
     border-radius: 10px;
     padding: 20px;
+    max-height: 360px;
 }
 
 .my-s1Contato-formulario div span {

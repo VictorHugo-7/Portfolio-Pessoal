@@ -1,23 +1,23 @@
-.my-s1Cerificados-modalContainer {
+.my-s1Certificados-modalContainer {
     background-color: var(--corFundo) !important;
     box-shadow: var(--corSombra) !important;
 }
 
-.my-s1Cerificados-modalContainer .modal-header .modal-title {
+.my-s1Certificados-modalContainer .modal-header .modal-title {
     color: var(--corPrimaria) !important;
 }
 
-.my-s1Cerificados-modalContainer .modal-header {
+.my-s1Certificados-modalContainer .modal-header {
     border-bottom: 1px solid var(--corCinza);
 }
 
 
-.my-s1Cerificados-modalContainer .modal-header button i {
+.my-s1Certificados-modalContainer .modal-header button i {
     color: var(--corCinza);
     font-size: 20px;
 }
 
-.my-s1Cerificados-modalContainer .modal-body div h6 {
+.my-s1Certificados-modalContainer .modal-body div h6 {
     color: var(--corPrimaria) !important;
 }
 
@@ -132,3 +132,4 @@
 .my-s1Certificados-cardFooter a:hover {
     text-decoration: underline;
 }
+

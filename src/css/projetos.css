@@ -1,3 +1,36 @@
+.my-s1Projetos-modalContainer  {
+    background-color: var(--corFundo) !important;
+    box-shadow: var(--corSombra) !important;
+}
+
+.my-s1Projetos-modalContainer  .modal-header .modal-title {
+    color: var(--corPrimaria) !important;
+}
+
+.my-s1Projetos-modalContainer  .modal-header {
+    border-bottom: 1px solid var(--corCinza);
+}
+
+
+.my-s1Projetos-modalContainer  .modal-header button i {
+    color: var(--corCinza);
+    font-size: 20px;
+}
+
+.my-s1Projetos-modalContainer  .modal-body div h6 {
+    color: var(--corPrimaria) !important;
+}
+
+.modal-body img {
+    border: 1.5px solid var(--corSecundaria) !important;
+    border-radius: 5px;
+}
+
+.modal-body div p {
+    color: var(--corCinza);
+    font-size: 12px;
+}
+
 .my-s1Projetos-titulo {
     color: var(--corPrimaria);
     display: inline-block;
@@ -29,32 +62,40 @@
     transform: translateY(-3px);
 }
 
-.my-s1Projetos-cardContainer h5 {
-    color: var(--corPrimaria);
-}
-
-.my-s1Projetos-cardContainer h6 {
-    color: var(--corCinza);
-    font-weight: bold;
-}
-
-.my-s1Projetos-cardContainer p {
-    color: var(--corCinza);
-    font-size: 14px;
-}
-
 .my-s1Projetos-cardImg {
     text-align: center;
 }
 
+.my-s1Projetos-cardNome {
+    color: var(--corPrimaria);
+    font-weight: 600;
+}
+
+.my-s1Projetos-cardData {
+    color: var(--corCinza);
+    font-size: 14px;
+
+}
+
+.my-s1Projetos-cardIntituicao img {
+    border-radius: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.my-s1Projetos-cardIntituicao,
+.my-s1Projetos-cardDescricao {
+    color: var(--corCinza);
+    font-size: 14px;
+}
+
 .my-s1Projetos-cardTecnologias span {
-    display: inline-block;
     color: var(--corPrimaria);
     background-color: var(--corSecundaria);
     border-radius: 10px;
     font-size: 10px;
     padding: 5px;
-    margin: 5px;
+    margin-right: 15px;
 }
 
 .my-s1Projetos-cardFooter {
@@ -62,12 +103,35 @@
     border-top: 2px solid var(--corSecundaria) !important;
 }
 
-.my-s1Projetos-cardFooter div a i,
-.my-s1Projetos-cardFooter span i {
+.my-s1Projetos-cardContribuidores img {
+    border-radius: 100%;
+    height: 40px;
+    text-decoration: none;
+}
+
+.my-s1Projetos-cardContribuidores img:hover {
+    transform: scale(1.05);
+}
+
+.my-s1Projetos-cardProgresso{
+    font-size: 12px;
+}
+
+.my-s1Projetos-cardProgresso i{
     color: var(--corDestaque);
-    font-size: 20px !important;
+    font-size: 12px;
+}
+
+.my-s1Projetos-cardContribuidores a {
+    text-decoration: none;
+}
+
+.my-s1Projetos-cardFooter div a i{
+    color: var(--corDestaque);
+    font-size: 24px !important;
 }
 
 .my-s1Projetos-cardFooter div a i:hover {
     transform: scale(1.1) !important;
 }
+
