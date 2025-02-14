@@ -89,6 +89,7 @@
     font-size: 14px;
 }
 
+
 .my-s1Projetos-cardTecnologias span {
     color: var(--corPrimaria);
     background-color: var(--corSecundaria);
@@ -98,9 +99,11 @@
     margin-right: 15px;
 }
 
-.my-s1Projetos-cardFooter {
-    background-color: var(--corFundo) !important;
-    border-top: 2px solid var(--corSecundaria) !important;
+@media (max-width: 1200px) {
+    .my-s1Projetos-cardTecnologias span{
+        display: inline-block;
+        margin-top: 10px;
+    }
 }
 
 .my-s1Projetos-cardContribuidores img {
@@ -111,6 +114,11 @@
 
 .my-s1Projetos-cardContribuidores img:hover {
     transform: scale(1.05);
+}
+
+.my-s1Projetos-cardFooter {
+    background-color: var(--corFundo) !important;
+    border-top: 2px solid var(--corSecundaria) !important;
 }
 
 .my-s1Projetos-cardProgresso{
