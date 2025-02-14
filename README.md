@@ -3,8 +3,8 @@
 
 
 <!--DESCRIÇÃO-->
-> Portfólio pessoal com projetos desenvolvidos ao longo da minha trajetória. Confira meus trabalhos e habilidades.<br>
-
+> Bem-vindo ao meu portfólio! <br>
+> O portfólio apresenta informações sobre mim, minhas habilidades, projetos, certificados e formas de contato.
 
 <!--STATUS-->
 ## Status
@@ -20,7 +20,8 @@
 
 <!--PROTÓTIPO-->
 ## Protótipo
-![Protótipo](https://github.com/user-attachments/assets/cf7da120-89c8-4315-80a9-404343d48683)
+![Protótipo](https://github.com/user-attachments/assets/b6271f24-07c3-4cce-8a17-03e86e313b07)
+
 
 
 <!--ESTATÍSTICAS-->
