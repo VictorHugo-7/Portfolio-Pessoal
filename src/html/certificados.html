@@ -40,239 +40,254 @@
 
 <body>
 
-    <!-- Modal Reutilizável -->
-    <div class="modal fade" id="certificadoModal" tabindex="-1" aria-labelledby="certificadoModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="my-s1Certificados-modalContainer modal-content">
-                <div class="modal-header d-flex align-items-center justify-content-between">
-                    <h5 class="modal-title" id="certificadoModalLabel">Certificado</h5>
-                    <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
-                        <i class="fa-solid fa-xmark"></i>
-                    </button>
-                </div>
-                <div class="modal-body d-flex">
-                    <img id="certificadoImg" src="" alt="Certificado" class="me-3" style="min-width: 50%;">
-                    <div>
-                        <h6>Conteúdo</h6>
-                        <p id="certificadoConteudo"></p>
+    <div style="min-height: calc(100vh - 71px);">
+        <!-- Modal Reutilizável -->
+        <div class="modal fade" id="certificadoModal" tabindex="-1" aria-labelledby="certificadoModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="my-s1Certificados-modalContainer modal-content">
+                    <div class="modal-header d-flex align-items-center justify-content-between">
+                        <h5 class="modal-title" id="certificadoModalLabel">Certificado</h5>
+                        <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body d-flex">
+                        <img id="certificadoImg" src="" alt="Certificado" class="me-3" style="min-width: 50%;">
+                        <div>
+                            <h6>Conteúdo</h6>
+                            <p id="certificadoConteudo"></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Menu -->
+        <header id="my-menu-container">
+            <nav class="navbar navbar-expand-lg mx-5">
+
+                <!-- Logo -->
+                <a id="my-menu-logo" class="navbar-brand" href="#">VHP</a>
+
+                <!-- Botão Responsivo -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i id="my-menu-togglerIcon" class="fa-solid fa-bars"></i>
+                </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul id="my-menu-navegacao" class="navbar-nav ms-auto d-flex align-items-center gap-4">
+                        <li> <a href="../../index.html">Sobre</a> </li>
+                        <li> <a href="./habilidades.html">Habilidades</a> </li>
+                        <li> <a href="./projetos.html">Projetos</a> </li>
+                        <li> <a href="./certificados.html" id="my-menu-linkAtivo">Certificados</a> </li>
+                        <li> <a href="./contato.html">Contato</a> </li>
+                        <li> <i id="my-menu-navegacaoTema" class="fa-solid fa-sun"></i> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Altura Menu -->
+        <div class="mb-5" style="height: 71px;"></div>
+
+        <!-- Section -->
+        <section class="mx-5">
+
+            <!-- Certificados -->
+            <h5 class="my-s1Certificados-titulo mb-4">Certificados</h5>
+
+            <div class="row">
+
+                <!-- Certificado 1 -->
+                <div class="col-12 col-lg-6 mb-4">
+                    <div class="my-s1Certificados-cardContainer card">
+
+                        <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
+                            <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFgIiUzENGjlw/company-logo_100_100/company-logo_100_100/0/1630492490554/instituto_maua_de_tecnologia_logo?e=1747267200&v=beta&t=hjKDSgOQ-YAX635ASmxL7UWvnotKKvdE4p46vZAhzEA"
+                                alt="">
+
+                            <div>
+                                <span id="my-s1Certificados-cardTexto1">Técnicas de Negociação Muito Além de Preço
+                                    e Prazo</span><br>
+                                <span id="my-s1Certificados-cardTexto2">IMT - Mauá - Instituto Mauá de
+                                    Tecnologia</span><br>
+                                <span id="my-s1Certificados-cardTexto3">Verificação emitida em nov de 2024</span>
+                            </div>
+                        </div>
+
+                        <div
+                            class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
+                            <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
+                                target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#certificadoModal"
+                                data-title="Certificado"
+                                data-img="../../src/midia/certificados/PAE_Negociacao.png"
+                                data-content="- Negociação Conceitos <br> - Percepção e 7 Elementos Básicos Negociação<br> - Posição x Interesse<br> - Comunicação e o Impacto da linguagem cultural<br> - O Processo de Negociação<br> - Princípios da Influência"
+                                class="open-modal">
+                                Ver Certificado
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificado 2 -->
+                <div class="col-12 col-lg-6 mb-4">
+                    <div class="my-s1Certificados-cardContainer card">
+                        <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
+                            <img src="https://media.licdn.com/dms/image/v2/C4E0BAQGgow-NKJPhPw/company-logo_100_100/company-logo_100_100/0/1630569049482/even3_logo?e=1747267200&v=beta&t=GzYi8KHJ7Vvb9na29iYeaH8_Gm-yDS-7xbtAXKYo11U"
+                                alt="">
+                            <div>
+                                <span id="my-s1Certificados-cardTexto1">[ACTION Talents] Palestra Técnica - Threat
+                                    Intelligence à brasileira: Uma introdução à inteligência de ameaças de forma
+                                    operacional</span><br>
+                                <span id="my-s1Certificados-cardTexto2">Even3</span><br>
+                                <span id="my-s1Certificados-cardTexto3">Verificação emitida em out de 2024</span>
+                            </div>
+                        </div>
+                        <div
+                            class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
+                            <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
+                                target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#certificadoModal"
+                                data-title="Certificado"
+                                data-img="../../src/midia/certificados/ActionTalents.png"
+                                data-content="" class="open-modal">
+                                Ver Certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <!-- Certificado 3 -->
+                <div class="col-12 col-lg-6 mb-4">
+                    <div class="my-s1Certificados-cardContainer card">
+                        <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
+                            <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFgIiUzENGjlw/company-logo_100_100/company-logo_100_100/0/1630492490554/instituto_maua_de_tecnologia_logo?e=1747267200&v=beta&t=hjKDSgOQ-YAX635ASmxL7UWvnotKKvdE4p46vZAhzEA"
+                                alt="">
+                            <div>
+                                <span id="my-s1Certificados-cardTexto1">Desenvolvimento de Aplicações Híbridas com
+                                    Flutter</span><br>
+                                <span id="my-s1Certificados-cardTexto2">IMT - Mauá - Instituto Mauá de
+                                    Tecnologia</span><br>
+                                <span id="my-s1Certificados-cardTexto3">Verificação emitida em jun de 2024</span>
+                            </div>
+                        </div>
+                        <div
+                            class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
+                            <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
+                                target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#certificadoModal"
+                                data-title="Certificado"
+                                data-img="../../src/midia/certificados/PAE_Flutter.png"
+                                data-content="- Introdução ao Flutter <br> - O que é Dart?<br> - Aplicação Flutter<br> - Widgets<br> - Stateless x Stateful<br> - Responsividade"
+                                class="open-modal">
+                                Ver Certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificado 4 -->
+                <div class="col-12 col-lg-6 mb-4">
+                    <div class="my-s1Certificados-cardContainer card">
+                        <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
+                            <img src="https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/company-logo_100_100/0/1665755678957/oracle_logo?e=1747267200&v=beta&t=cjeM03XNhrfYCjlx5XhK8yZ94fAsnkGG3ElJ4vh0v_s"
+                                alt="">
+                            <div>
+                                <span id="my-s1Certificados-cardTexto1">Oracle Java Foundations</span><br>
+                                <span id="my-s1Certificados-cardTexto2">Oracle</span><br>
+                                <span id="my-s1Certificados-cardTexto3">Verificação emitida em mai de 2024</span>
+                            </div>
+                        </div>
+                        <div
+                            class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
+                            <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
+                                target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#certificadoModal"
+                                data-title="Certificado"
+                                data-img="../../src/midia/certificados/OracleJavaFoundations.png"
+                                data-content="- Introdução <br> - Desenvolvimento de Software em Java<br> - Tipos de Dados em Java<br> - Métodos e Classes da Biblioteca Java<br> - Estruturas de Decisão<br> - Estruturas de Repetição<br> - Criando Classes<br> - Arrays e Exceções<br> - JavaFX<br>"
+                                class="open-modal">
+                                Ver Certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <!-- Certificado 5 -->
+                <div class="col-12 col-lg-6 mb-4">
+                    <div class="my-s1Certificados-cardContainer card">
+                        <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
+                            <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFgIiUzENGjlw/company-logo_100_100/company-logo_100_100/0/1630492490554/instituto_maua_de_tecnologia_logo?e=1747267200&v=beta&t=hjKDSgOQ-YAX635ASmxL7UWvnotKKvdE4p46vZAhzEA"
+                                alt="">
+                            <div>
+                                <span id="my-s1Certificados-cardTexto1">Reconhecimento facial e identificação de objetos
+                                    com Python</span><br>
+                                <span id="my-s1Certificados-cardTexto2">IMT - Mauá - Instituto Mauá de
+                                    Tecnologia</span><br>
+                                <span id="my-s1Certificados-cardTexto3">Verificação emitida em mai de 2024</span>
+                            </div>
+                        </div>
+                        <div
+                            class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
+                            <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
+                                target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#certificadoModal"
+                                data-title="Certificado"
+                                data-img="../../src/midia/certificados/PAE_ReconhecimentoFacial.png"
+                                data-content="- Identificar Carros <br> - Identificar Gatos e Gráficos de Histograma?<br> - Identificar Rosto (com Olhos Abertos ou Fechados)<br> - Identificar Boca (Aberta, Sorriso, Normal)<br> - Identificar Ângulo do Rosto<br> - Identificar Diferença entre Biometrias"
+                                class="open-modal">
+                                Ver Certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificado 6 -->
+                <div class="col-12 col-lg-6 mb-4">
+                    <div class="my-s1Certificados-cardContainer card">
+                        <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D0BAQEFKEYZhCbjFA/company-logo_100_100/company-logo_100_100/0/1733019768288?e=1747267200&v=beta&t=-X0YVRNpU4pROpbupTE3TwJCXBWOUbiciESCG-fY4k0"
+                                alt="">
+                            <div>
+                                <span id="my-s1Certificados-cardTexto1">Trilha Conectar Fundamentos da
+                                    Programação</span><br>
+                                <span id="my-s1Certificados-cardTexto2">Rocketseat</span><br>
+                                <span id="my-s1Certificados-cardTexto3">Verificação emitida em nov de 2024</span>
+                            </div>
+                        </div>
+                        <div
+                            class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
+                            <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
+                                target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#certificadoModal"
+                                data-title="Certificado"
+                                data-img="../../src/midia/certificados/TrilharConectarFundamentosDaProgramacao.png"
+                                data-content="- Fundamentos de programação <br> - Computador, Software e Hardware<br> - Internet, Roteadores e Servidores<br> - Sistemas Operacionais<br> - Linguagem de Programação<br> - Tipos de Aplicações WEB"
+                                class="open-modal">
+                                Ver Certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </div>
-
-    <!-- Menu -->
-    <header id="my-menu-container">
-        <nav class="navbar navbar-expand-lg mx-5">
-
-            <!-- Logo -->
-            <a id="my-menu-logo" class="navbar-brand" href="#">VHP</a>
-
-            <!-- Botão Responsivo -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <i id="my-menu-togglerIcon" class="fa-solid fa-bars"></i>
-            </button>
-
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul id="my-menu-navegacao" class="navbar-nav ms-auto d-flex align-items-center gap-4">
-                    <li> <a href="../../index.html">Sobre</a> </li>
-                    <li> <a href="./habilidades.html">Habilidades</a> </li>
-                    <li> <a href="./projetos.html">Projetos</a> </li>
-                    <li> <a href="./certificados.html" id="my-menu-linkAtivo">Certificados</a> </li>
-                    <li> <a href="./contato.html">Contato</a> </li>
-                    <li> <i id="my-menu-navegacaoTema" class="fa-solid fa-sun"></i> </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Altura Menu -->
-    <div class="mb-5" style="height: 71px;"></div>
-
-    <!-- Section -->
-    <section class="mx-5">
-
-        <!-- Certificados -->
-        <h5 class="my-s1Certificados-titulo mb-4">Certificados</h5>
-
-        <div class="row">
-
-            <!-- Certificado 1 -->
-            <div class="col-12 col-lg-6 mb-4">
-                <div class="my-s1Certificados-cardContainer card">
-
-                    <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
-                        <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFgIiUzENGjlw/company-logo_100_100/company-logo_100_100/0/1630492490554/instituto_maua_de_tecnologia_logo?e=1747267200&v=beta&t=hjKDSgOQ-YAX635ASmxL7UWvnotKKvdE4p46vZAhzEA"
-                            alt="">
-
-                        <div>
-                            <span id="my-s1Certificados-cardTexto1">Técnicas de Negociação Muito Além de Preço
-                                e Prazo</span><br>
-                            <span id="my-s1Certificados-cardTexto2">IMT - Mauá - Instituto Mauá de Tecnologia</span><br>
-                            <span id="my-s1Certificados-cardTexto3">Verificação emitida em nov de 2024</span>
-                        </div>
-                    </div>
-
-
-                    <div
-                        class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
-                        <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
-                            target="_blank"><i class="fab fa-linkedin"></i></a>
-
-                        <a href="#" 
-                            data-bs-toggle="modal" 
-                            data-bs-target="#certificadoModal" 
-                            data-title="Certificado"
-                            data-img="https://media.licdn.com/dms/image/v2/D4D2DAQHcTACzycSeng/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1738793322305?e=1739876400&v=beta&t=4UGTEVfSS7pdba1e8hriYeIAnXuJmSh2qaWJ4oW63nM"
-                            data-content="- Negociação Conceitos <br> - Percepção e 7 Elementos Básicos Negociação<br> - Posição x Interesse<br> - Comunicação e o Impacto da linguagem cultural<br> - O Processo de Negociação<br> - Princípios da Influência"
-                            class="open-modal">
-                            Ver Certificado
-                        </a>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- Certificado 2 -->
-            <div class="col-12 col-lg-6 mb-4">
-                <div class="my-s1Certificados-cardContainer card">
-                    <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
-                        <img src="https://media.licdn.com/dms/image/v2/C4E0BAQGgow-NKJPhPw/company-logo_100_100/company-logo_100_100/0/1630569049482/even3_logo?e=1747267200&v=beta&t=GzYi8KHJ7Vvb9na29iYeaH8_Gm-yDS-7xbtAXKYo11U"
-                            alt="">
-                        <div>
-                            <span id="my-s1Certificados-cardTexto1">[ACTION Talents] Palestra Técnica - Threat
-                                Intelligence à brasileira: Uma introdução à inteligência de ameaças de forma
-                                operacional</span><br>
-                            <span id="my-s1Certificados-cardTexto2">Even3</span><br>
-                            <span id="my-s1Certificados-cardTexto3">Verificação emitida em out de 2024</span>
-                        </div>
-                    </div>
-                    <div
-                        class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
-                        <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
-                            target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#certificadoModal" data-title="Certificado"
-                            data-img="https://media.licdn.com/dms/image/v2/D4D2DAQHaAdt9-dGJAw/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1738793493990?e=1739880000&v=beta&t=dSwOjU-EvaGUzI2K4laMzXH0k7OGbPP2pwFrwE88EgU"
-                            data-content="" class="open-modal">
-                            Ver Certificado
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <!-- Certificado 3 -->
-            <div class="col-12 col-lg-6 mb-4">
-                <div class="my-s1Certificados-cardContainer card">
-                    <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
-                        <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFgIiUzENGjlw/company-logo_100_100/company-logo_100_100/0/1630492490554/instituto_maua_de_tecnologia_logo?e=1747267200&v=beta&t=hjKDSgOQ-YAX635ASmxL7UWvnotKKvdE4p46vZAhzEA"
-                            alt="">
-                        <div>
-                            <span id="my-s1Certificados-cardTexto1">Desenvolvimento de Aplicações Híbridas com Flutter</span><br>
-                            <span id="my-s1Certificados-cardTexto2">IMT - Mauá - Instituto Mauá de Tecnologia</span><br>
-                            <span id="my-s1Certificados-cardTexto3">Verificação emitida em jun de 2024</span>
-                        </div>
-                    </div>
-                    <div class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
-                        <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
-                            target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#certificadoModal" data-title="Certificado"
-                            data-img="https://media.licdn.com/dms/image/v2/D4D2DAQH5OJ6ky3-NOA/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1738792941526?e=1739880000&v=beta&t=Phio03H3wqtjGwBtDgOJnDiKF1-R9zof5SoHqizrzZ0"
-                            data-content="- Introdução ao Flutter <br> - O que é Dart?<br> - Aplicação Flutter<br> - Widgets<br> - Stateless x Stateful<br> - Responsividade"
-                            class="open-modal">
-                            Ver Certificado
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Certificado 4 -->
-            <div class="col-12 col-lg-6 mb-4">
-                <div class="my-s1Certificados-cardContainer card">
-                    <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
-                        <img src="https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/company-logo_100_100/0/1665755678957/oracle_logo?e=1747267200&v=beta&t=cjeM03XNhrfYCjlx5XhK8yZ94fAsnkGG3ElJ4vh0v_s"
-                            alt="">
-                        <div>
-                            <span id="my-s1Certificados-cardTexto1">Oracle Java Foundations</span><br>
-                            <span id="my-s1Certificados-cardTexto2">Oracle</span><br>
-                            <span id="my-s1Certificados-cardTexto3">Verificação emitida em mai de 2024</span>
-                        </div>
-                    </div>
-                    <div class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
-                        <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
-                            target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#certificadoModal" data-title="Certificado"
-                            data-img="https://media.licdn.com/dms/image/v2/D4D2DAQHg67RhhDrzxw/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1738792710363?e=1739880000&v=beta&t=gdtDAObZEXOFQt1Ja-a0Vh2YmYu6PS1QFFljnlFbohM"
-                            data-content="- Introdução <br> - Desenvolvimento de Software em Java<br> - Tipos de Dados em Java<br> - Métodos e Classes da Biblioteca Java<br> - Estruturas de Decisão<br> - Estruturas de Repetição<br> - Criando Classes<br> - Arrays e Exceções<br> - JavaFX<br>"
-                            class="open-modal">
-                            Ver Certificado
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <!-- Certificado 5 -->
-            <div class="col-12 col-lg-6 mb-4">
-                <div class="my-s1Certificados-cardContainer card">
-                    <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
-                        <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFgIiUzENGjlw/company-logo_100_100/company-logo_100_100/0/1630492490554/instituto_maua_de_tecnologia_logo?e=1747267200&v=beta&t=hjKDSgOQ-YAX635ASmxL7UWvnotKKvdE4p46vZAhzEA"
-                            alt="">
-                        <div>
-                            <span id="my-s1Certificados-cardTexto1">Reconhecimento facial e identificação de objetos com Python</span><br>
-                            <span id="my-s1Certificados-cardTexto2">IMT - Mauá - Instituto Mauá de Tecnologia</span><br>
-                            <span id="my-s1Certificados-cardTexto3">Verificação emitida em mai de 2024</span>
-                        </div>
-                    </div>
-                    <div class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
-                        <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
-                            target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#certificadoModal" data-title="Certificado"
-                            data-img="https://media.licdn.com/dms/image/v2/D4D2DAQFAovSn8Za6fA/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1738792840144?e=1739880000&v=beta&t=9N3LVbvgaw9lPinqKtespYE7x2ximU9G7X9X2t9d0ZU"
-                            data-content="- Identificar Carros <br> - Identificar Gatos e Gráficos de Histograma?<br> - Identificar Rosto (com Olhos Abertos ou Fechados)<br> - Identificar Boca (Aberta, Sorriso, Normal)<br> - Identificar Ângulo do Rosto<br> - Identificar Diferença entre Biometrias"
-                            class="open-modal">
-                            Ver Certificado
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Certificado 6 -->
-            <div class="col-12 col-lg-6 mb-4">
-                <div class="my-s1Certificados-cardContainer card">
-                    <div class="my-s1Certificados-cardBody card-body d-flex align-items-center gap-4">
-                        <img src="https://media.licdn.com/dms/image/v2/D4D0BAQEFKEYZhCbjFA/company-logo_100_100/company-logo_100_100/0/1733019768288?e=1747267200&v=beta&t=-X0YVRNpU4pROpbupTE3TwJCXBWOUbiciESCG-fY4k0"
-                            alt="">
-                        <div>
-                            <span id="my-s1Certificados-cardTexto1">Trilha Conectar Fundamentos da Programação</span><br>
-                            <span id="my-s1Certificados-cardTexto2">Rocketseat</span><br>
-                            <span id="my-s1Certificados-cardTexto3">Verificação emitida em nov de 2024</span>
-                        </div>
-                    </div>
-                    <div class="my-s1Certificados-cardFooter card-footer d-flex justify-content-between align-items-center">
-                        <a href="https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/"
-                            target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#certificadoModal" data-title="Certificado"
-                            data-img="https://media.licdn.com/dms/image/v2/D4D2DAQEWfyxQ7OxyiA/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1738792567720?e=1739880000&v=beta&t=a83hlBXACtlOZLEzbo0NboR4_FLAFGL71mrDmJ2eU5E"
-                            data-content="- Fundamentos de programação <br> - Computador, Software e Hardware<br> - Internet, Roteadores e Servidores<br> - Sistemas Operacionais<br> - Linguagem de Programação<br> - Tipos de Aplicações WEB"
-                            class="open-modal">
-                            Ver Certificado
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
     <!-- Rodapé -->
     <footer id="my-rodape" class="mt-5">

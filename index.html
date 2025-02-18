@@ -40,79 +40,79 @@
 </head>
 
 <body>
+    <div style="min-height: calc(100vh - 71px);">
+        <!-- Menu -->
+        <header id="my-menu-container">
+            <nav class="navbar navbar-expand-lg mx-5">
 
-    <!-- Menu -->
-    <header id="my-menu-container">
-        <nav class="navbar navbar-expand-lg mx-5">
+                <!-- Logo -->
+                <a id="my-menu-logo" class="navbar-brand" href="#">VHP</a>
 
-            <!-- Logo -->
-            <a id="my-menu-logo" class="navbar-brand" href="#">VHP</a>
+                <!-- Botão Responsivo -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i id="my-menu-togglerIcon" class="fa-solid fa-bars"></i>
+                </button>
 
-            <!-- Botão Responsivo -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <i id="my-menu-togglerIcon" class="fa-solid fa-bars"></i>
-            </button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul id="my-menu-navegacao" class="navbar-nav ms-auto d-flex align-items-center gap-4">
+                        <li> <a id="my-menu-linkAtivo" href="./index.html">Sobre</a> </li>
+                        <li> <a href="./src/html/habilidades.html">Habilidades</a> </li>
+                        <li> <a href="./src/html/projetos.html">Projetos</a> </li>
+                        <li> <a href="./src/html/certificados.html">Certificados</a> </li>
+                        <li> <a href="./src/html/contato.html">Contato</a> </li>
+                        <li> <i id="my-menu-navegacaoTema" class="fa-solid fa-sun"></i> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul id="my-menu-navegacao" class="navbar-nav ms-auto d-flex align-items-center gap-4">
-                    <li> <a id="my-menu-linkAtivo" href="./index.html">Sobre</a> </li>
-                    <li> <a href="./src/html/habilidades.html">Habilidades</a> </li>
-                    <li> <a href="./src/html/projetos.html">Projetos</a> </li>
-                    <li> <a href="./src/html/certificados.html">Certificados</a> </li>
-                    <li> <a href="./src/html/contato.html">Contato</a> </li>
-                    <li> <i id="my-menu-navegacaoTema" class="fa-solid fa-sun"></i> </li>
-                </ul>
+        <!-- Altura Menu -->
+        <div id="my-menu-altura" class="mb-5" style="height: 71px;"></div>
+
+        <!-- Section -->
+        <section id="my-s1Sobre-container" class="mx-5 d-flex align-items-center justify-content-between">
+
+            <!-- Textos e Ícones -->
+            <div>
+                <!-- Textos -->
+                <h4 class="my-s1Sobre-texto1 mb-3">Olá, sou o</h4>
+                <h2 class="my-s1Sobre-texto1">Victor Hugo Pinho</h2>
+                <h4 class="my-s1Sobre-texto2 mt-3 mb-3">Desenvolvedor Full-Stack</h4>
+                <p class="my-s1Sobre-texto3">
+                    Estudante do 3º semestre de Ciências da Computação no Instituto Mauá de Tecnologia, com perfil
+                    proativo, organizado e com foco em desenvolvimento e soluções inovadoras. Busco constantemente me
+                    atualizar e aplicar conhecimentos para resolver problemas reais de forma eficiente.
+                </p>
+                <p class="my-s1Sobre-texto3">
+                    Minha jornada acadêmica é marcada por determinação,
+                    esforço e organização nos meus estudos. Encontro-me sempre
+                    disposto a aprender assuntos novos e trabalhar em equipe.
+                </p>
+
+                <!-- Ícones -->
+                <a href="mailto:victorhotpinho7@gmail.com" target="_blank"><img class="my-s1Sobre-icones"
+                        src="./src/midia/sobre/email.png" alt="Email"></a>
+                <a href="https://www.linkedin.com/in/victor-hugo-pinho/" target="_blank"><img class="my-s1Sobre-icones mx-4"
+                        src="./src/midia/sobre/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/VictorHugo-7" target="_blank"><img class="my-s1Sobre-icones"
+                        src="./src/midia/sobre/github.png" alt="GitHub"></a>
             </div>
-        </nav>
-    </header>
 
-    <!-- Altura Menu -->
-    <div class="mb-5" style="height: 71px;"></div>
+            <!-- Imagem -->
+            <img id="my-s1Sobre-fotoVictorHugo" src="./src/midia/sobre/fotoVictorHugo.jpg" alt="Foto Victor Hugo" />
+        </section>
+    </div>
 
-    <!-- Section -->
-    <section id="my-s1Sobre-container" class="mx-5 d-flex align-items-center justify-content-between">
-
-        <!-- Textos e Ícones -->
-        <div>
-            <!-- Textos -->
-            <h4 class="my-s1Sobre-texto1 mb-3">Olá, sou o</h4>
-            <h2 class="my-s1Sobre-texto1">Victor Hugo Pinho</h2>
-            <h4 class="my-s1Sobre-texto2 mt-3 mb-3">Desenvolvedor Full-Stack</h4>
-            <p class="my-s1Sobre-texto3">
-                Estudante do 3º semestre de Ciências da Computação no Instituto Mauá de Tecnologia, com perfil
-                proativo, organizado e com foco em desenvolvimento e soluções inovadoras. Busco constantemente me
-                atualizar e aplicar conhecimentos para resolver problemas reais de forma eficiente.
-            </p>
-            <p class="my-s1Sobre-texto3">
-                Minha jornada acadêmica é marcada por determinação,
-                esforço e organização nos meus estudos. Encontro-me sempre
-                disposto a aprender assuntos novos e trabalhar em equipe.
-            </p>
-
-            <!-- Ícones -->
-            <a href="mailto:victorhotpinho7@gmail.com" target="_blank"><img class="my-s1Sobre-icones"
-                    src="./src/midia/sobre/email.png" alt="Email"></a>
-            <a href="https://www.linkedin.com/in/victor-hugo-pinho/" target="_blank"><img
-                    class="my-s1Sobre-icones mx-4" src="./src/midia/sobre/linkedin.png" alt="LinkedIn"></a>
-            <a href="https://github.com/VictorHugo-7" target="_blank"><img class="my-s1Sobre-icones"
-                    src="./src/midia/sobre/github.png" alt="GitHub"></a>
-        </div>
-
-        <!-- Imagem -->
-        <img id="my-s1Sobre-fotoVictorHugo" src="./src/midia/sobre/fotoVictorHugo.jpg" alt="Foto Victor Hugo" />
-    </section>
-    
     <!-- Rodapé -->
-    <!--
     <footer id="my-rodape" class="mt-5">
-        <div class="mx-5 py-3" >
+        <div class="mx-5 py-3">
             © 2025 Todos Direitos Reservados Victor Hugo Pinho
         </div>
     </footer>
-    -->
-    
+
+
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

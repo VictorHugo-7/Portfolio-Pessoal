@@ -41,104 +41,109 @@
 
 <body>
 
-    <!-- Menu -->
-    <header id="my-menu-container">
-        <nav class="navbar navbar-expand-lg mx-5">
+    <div style="min-height: calc(100vh - 71px);">
+        <!-- Menu -->
+        <header id="my-menu-container">
+            <nav class="navbar navbar-expand-lg mx-5">
 
-            <!-- Logo -->
-            <a id="my-menu-logo" class="navbar-brand" href="#">VHP</a>
+                <!-- Logo -->
+                <a id="my-menu-logo" class="navbar-brand" href="#">VHP</a>
 
-            <!-- Botão Responsivo -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <i id="my-menu-togglerIcon" class="fa-solid fa-bars"></i>
-            </button>
+                <!-- Botão Responsivo -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i id="my-menu-togglerIcon" class="fa-solid fa-bars"></i>
+                </button>
 
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul id="my-menu-navegacao" class="navbar-nav ms-auto d-flex align-items-center gap-4">
-                    <li> <a href="../../index.html">Sobre</a> </li>
-                    <li> <a href="./habilidades.html">Habilidades</a> </li>
-                    <li> <a href="./projetos.html">Projetos</a> </li>
-                    <li> <a href="./certificados.html">Certificados</a> </li>
-                    <li> <a href="./contato.html" id="my-menu-linkAtivo">Contato</a> </li>
-                    <li> <i id="my-menu-navegacaoTema" class="fa-solid fa-sun"></i> </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul id="my-menu-navegacao" class="navbar-nav ms-auto d-flex align-items-center gap-4">
+                        <li> <a href="../../index.html">Sobre</a> </li>
+                        <li> <a href="./habilidades.html">Habilidades</a> </li>
+                        <li> <a href="./projetos.html">Projetos</a> </li>
+                        <li> <a href="./certificados.html">Certificados</a> </li>
+                        <li> <a href="./contato.html" id="my-menu-linkAtivo">Contato</a> </li>
+                        <li> <i id="my-menu-navegacaoTema" class="fa-solid fa-sun"></i> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-    <!-- Altura Menu -->
-    <div class="mb-5" style="height: 71px;"></div>
+        <!-- Altura Menu -->
+        <div class="mb-5" style="height: 71px;"></div>
 
-    <!-- Section -->
-    <section class="mx-5">
+        <!-- Section -->
+        <section class="mx-5">
 
-        <!-- Row -->
-        <div class="row">
+            <!-- Row -->
+            <div class="row">
 
-            <!-- Formulário -->
-            <div class="col-12 col-lg-6">
-                <h5 class="my-s1Contato-titulo mb-4">Mensagem</h5>
-                <form id="contactForm" class="my-s1Contato-formulario">
-                    <!-- Nome -->
-                    <div class="input-group mb-3">
-                        <span class="input-group-text"><i class="fas fa-user"></i></span>
-                        <input class="form-control form-control-sm" type="text" name="Nome" placeholder="Nome"
-                            required />
+                <!-- Formulário -->
+                <div class="col-12 col-lg-6">
+                    <h5 class="my-s1Contato-titulo mb-4">Mensagem</h5>
+                    <form id="contactForm" class="my-s1Contato-formulario">
+                        <!-- Nome -->
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            <input class="form-control form-control-sm" type="text" name="Nome" placeholder="Nome"
+                                required />
+                        </div>
+
+                        <!-- Email -->
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                            <input class="form-control form-control-sm" type="email" name="Email" placeholder="Email"
+                                required />
+                        </div>
+
+                        <!-- Assunto -->
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-comment-alt"></i></span>
+                            <input class="form-control form-control-sm" type="text" name="Assunto" placeholder="Assunto"
+                                required />
+                        </div>
+
+
+                        <!-- Mensagem -->
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                            <textarea class="form-control form-control-sm" name="Mensagem" placeholder="Mensagem"
+                                rows="5" required></textarea>
+                        </div>
+
+                        <!-- Btn -->
+                        <button type="submit">ENVIAR</button>
+
+                        <!-- Configurações -->
+                        <input type="hidden" name="_subject" value="VHP - Portifólio Mensagem">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+
+                <!-- Informações -->
+                <div class="col-12 col-lg-6">
+                    <h5 class="my-s1Contato-titulo mb-4">Informações</h5>
+                    <div id="my-s1Contato-informacoes">
+                        <a href="#"><img src="../midia/contato/localizacao.png" alt=""> Santo André, SP</a>
+                        <a href="#"><img src="../midia/contato/email.png" alt="Email"> victorhotpinho7@gmail.com</a>
+                        <a href="https://www.linkedin.com/in/victor-hugo-pinho/" target="_blank"><img
+                                src="../midia/contato/linkedin.png" alt="LinkedIn"> Victor Hugo Pinho</a>
+                        <a href="https://github.com/VictorHugo-7" target="_blank"><img src="../midia/contato/github.png"
+                                alt="GitHub"> VictorHugo-7</a>
                     </div>
+                </div>
 
-                    <!-- Email -->
-                    <div class="input-group mb-3">
-                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
-                        <input class="form-control form-control-sm" type="email" name="Email" placeholder="Email"
-                            required />
-                    </div>
-
-                    <!-- Assunto -->
-                    <div class="input-group mb-3">
-                        <span class="input-group-text"><i class="fas fa-comment-alt"></i></span>
-                        <input class="form-control form-control-sm" type="text" name="Assunto" placeholder="Assunto"
-                            required />
-                    </div>
-
-
-                    <!-- Mensagem -->
-                    <div class="input-group mb-3">
-                        <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
-                        <textarea class="form-control form-control-sm" name="Mensagem" placeholder="Mensagem" rows="5"
-                            required></textarea>
-                    </div>
-
-                    <!-- Btn -->
-                    <button type="submit">ENVIAR</button>
-
-                    <!-- Configurações -->
-                    <input type="hidden" name="_subject" value="VHP - Portifólio Mensagem">
-                    <input type="text" name="_honey" style="display:none">
-                    <input type="hidden" name="_captcha" value="false">
-                </form>
-            </div>
-
-            <!-- Informações -->
-            <div class="col-12 col-lg-6">
-                <h5 class="my-s1Contato-titulo mb-4">Informações</h5>
-                <div id="my-s1Contato-informacoes">
-                    <a href="#"><img src="../midia/contato/localizacao.png" alt=""> Santo André, SP</a>
-                    <a href="#"><img src="../midia/contato/email.png" alt="Email"> victorhotpinho7@gmail.com</a>
-                    <a href="https://www.linkedin.com/in/victor-hugo-pinho/" target="_blank"><img src="../midia/contato/linkedin.png" alt="LinkedIn"> Victor Hugo Pinho</a>
-                    <a href="https://github.com/VictorHugo-7" target="_blank"><img src="../midia/contato/github.png" alt="GitHub"> VictorHugo-7</a>
+                <!-- Overlay de carregamento -->
+                <div class="my-s1Contato-loading-overlay" id="my-s1Contato-loadingOverlay">
+                    <div class="my-s1Contato-spinner"></div>
                 </div>
             </div>
 
-            <!-- Overlay de carregamento -->
-            <div class="my-s1Contato-loading-overlay" id="my-s1Contato-loadingOverlay">
-                <div class="my-s1Contato-spinner"></div>
-            </div>
-        </div>
 
-
-    </section>
+        </section>
+    </div>
 
     <!-- Rodapé -->
     <footer id="my-rodape" class="mt-5">

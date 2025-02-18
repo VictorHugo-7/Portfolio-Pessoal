@@ -4,6 +4,7 @@
     box-shadow: var(--corSombra);
     width: 100%;
     z-index: 100;
+    top: 0;
 }
 
 #my-menu-logo {
@@ -45,5 +46,22 @@
     #my-menu-navegacao a, 
     #my-menu-navegacao li i {
         font-size: 20px;
+    }
+}
+
+@media (min-width: 1480px) {
+    div[style*="min-height"] {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #my-s1Sobre-container {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #my-menu-altura {
+        display: none; 
     }
 }

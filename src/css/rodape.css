@@ -1,4 +1,6 @@
 #my-rodape {
+    margin-top: auto;
+    width: 100%;
     background-color: var(--corPreto);
     color: var(--corCinza);
     text-align: center;
