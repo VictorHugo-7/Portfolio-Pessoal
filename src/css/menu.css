@@ -36,10 +36,13 @@
     font-size: 16px;
     cursor: pointer;
     user-select: none;
+    padding: 7px;
 }
 
 #my-menu-navegacao li i:hover {
-    opacity: 80%;
+    background-color: var(--corSecundaria);
+    background-color: var(--corSecundaria);
+    border-radius: 20px;
 }
 
 @media (max-width: 992px) {
@@ -49,19 +52,3 @@
     }
 }
 
-@media (min-width: 1480px) {
-    div[style*="min-height"] {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    #my-s1Sobre-container {
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    #my-menu-altura {
-        display: none; 
-    }
-}
