@@ -1,23 +1,22 @@
-.my-s1Projetos-modalContainer  {
+.my-s1Projetos-modalContainer {
     background-color: var(--corFundo) !important;
     box-shadow: var(--corSombra) !important;
 }
 
-.my-s1Projetos-modalContainer  .modal-header .modal-title {
+.my-s1Projetos-modalContainer .modal-header .modal-title {
     color: var(--corPrimaria) !important;
 }
 
-.my-s1Projetos-modalContainer  .modal-header {
+.my-s1Projetos-modalContainer .modal-header {
     border-bottom: 1px solid var(--corCinza);
 }
 
-
-.my-s1Projetos-modalContainer  .modal-header button i {
+.my-s1Projetos-modalContainer .modal-header button i {
     color: var(--corCinza);
     font-size: 20px;
 }
 
-.my-s1Projetos-modalContainer  .modal-body div h6 {
+.my-s1Projetos-modalContainer .modal-body div h6 {
     color: var(--corPrimaria) !important;
 }
 
@@ -77,18 +76,17 @@
 
 }
 
-.my-s1Projetos-cardIntituicao img {
+.my-s1Projetos-cardInstituicao img {
     border-radius: 5px;
     width: 24px;
     height: 24px;
 }
 
-.my-s1Projetos-cardIntituicao,
+.my-s1Projetos-cardInstituicao,
 .my-s1Projetos-cardDescricao {
     color: var(--corCinza);
     font-size: 14px;
 }
-
 
 .my-s1Projetos-cardTecnologias span {
     color: var(--corPrimaria);
@@ -100,7 +98,7 @@
 }
 
 @media (max-width: 1200px) {
-    .my-s1Projetos-cardTecnologias span{
+    .my-s1Projetos-cardTecnologias span {
         display: inline-block;
         margin-top: 10px;
     }
@@ -121,11 +119,11 @@
     border-top: 2px solid var(--corSecundaria) !important;
 }
 
-.my-s1Projetos-cardProgresso{
+.my-s1Projetos-cardProgresso {
     font-size: 12px;
 }
 
-.my-s1Projetos-cardProgresso i{
+.my-s1Projetos-cardProgresso i {
     color: var(--corDestaque);
     font-size: 12px;
 }
@@ -134,7 +132,7 @@
     text-decoration: none;
 }
 
-.my-s1Projetos-cardFooter div a i{
+.my-s1Projetos-cardFooter div a i {
     color: var(--corDestaque);
     font-size: 24px !important;
 }
@@ -142,4 +140,3 @@
 .my-s1Projetos-cardFooter div a i:hover {
     transform: scale(1.1) !important;
 }
-

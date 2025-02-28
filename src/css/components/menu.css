@@ -1,3 +1,4 @@
+/* Container */
 #my-menu-container {
     position: fixed;
     background-color: var(--corFundo);
@@ -7,6 +8,9 @@
     top: 0;
 }
 
+
+
+/* Logo */
 #my-menu-logo {
     color: var(--corPrimaria);
     font-size: 30px;
@@ -15,20 +19,36 @@
     user-select: none;
 }
 
-#my-menu-togglerIcon{
+
+
+/* Ícone Tema */
+#my-menu-togglerIcon {
     color: var(--corPrimaria);
     font-size: 20px;
 }
 
+
+
+/* Links */
 #my-menu-navegacao a {
     color: var(--corPrimaria);
     font-size: 16px;
+    font-weight: 500;
     text-decoration: none;
     user-select: none;
+    transition: color 0.3s ease-in-out;
 }
 
 #my-menu-navegacao a:hover {
     color: var(--corDestaque);
+}
+
+#my-menu-navegacao li {
+    transition: transform 0.3s ease-in-out;
+}
+
+#my-menu-navegacao li:hover {
+    transform: translateY(-3px);
 }
 
 #my-menu-navegacao li i {
@@ -41,14 +61,15 @@
 
 #my-menu-navegacao li i:hover {
     background-color: var(--corSecundaria);
-    background-color: var(--corSecundaria);
     border-radius: 20px;
 }
 
+
+
+/* Responsividade Navegação*/
 @media (max-width: 992px) {
-    #my-menu-navegacao a, 
+    #my-menu-navegacao a,
     #my-menu-navegacao li i {
         font-size: 20px;
     }
 }
-
