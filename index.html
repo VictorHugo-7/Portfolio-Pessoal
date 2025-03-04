@@ -31,7 +31,7 @@
 
     <!-- CSS Marcar Página -->
     <style>
-        #my-menu-navegacao #my-menu-linkAtivo {
+        .my-menu-navegacao #my-menu-linkAtivo {
             color: var(--corDestaque);
             border-bottom: 2px solid var(--corDestaque);
             border-radius: 5px;
@@ -41,34 +41,9 @@
 
 <body>
 
-    <!-- Menu -->
-    <header id="my-menu-container">
-        <nav class="navbar navbar-expand-lg mx-5">
+    <header id="my-menu-importacao"></header>
 
-            <!-- Logo -->
-            <a id="my-menu-logo" class="navbar-brand" href="#">VHP</a>
-
-            <!-- Botão Responsivo -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <i id="my-menu-togglerIcon" class="fa-solid fa-bars"></i>
-            </button>
-
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul id="my-menu-navegacao" class="navbar-nav ms-auto d-flex align-items-center gap-4">
-                    <li> <a id="my-menu-linkAtivo" href="./index.html">Sobre</a> </li>
-                    <li> <a href="./src/html/pages/habilidades.html">Habilidades</a> </li>
-                    <li> <a href="./src/html/pages/projetos.html">Projetos</a> </li>
-                    <li> <a href="./src/html/pages/certificados.html">Certificados</a> </li>
-                    <li> <a href="./src/html/pages/contato.html">Contato</a> </li>
-                    <li> <i id="my-menu-navegacaoTema" class="fa-solid fa-sun"></i> </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Altura Menu -->
+    <!-- Altura Menu-->
     <div style="height: 71px;"></div>
 
     <!-- Section -->
@@ -104,13 +79,15 @@
         <img id="my-s1Sobre-fotoVictorHugo" src="./src/midia/pages/index/fotoVictorHugo.jpg" alt="Foto Victor Hugo" />
     </section>
 
-    <!-- JS -->
+    <!-- JS | Scripts-->
     <script src="./src/js/components/menu.js"></script>
 
     <!-- JS | Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="./src/js/components/menu.js"></script>
 
     <!-- JS | Animação -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

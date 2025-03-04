@@ -31,9 +31,10 @@
 
     <!-- CSS Link Ativo -->
     <style>
-        #my-menu-navegacao #my-menu-linkAtivo {
+        .my-menu-navegacao #my-menu-linkAtivo {
             color: var(--corDestaque);
-            text-decoration: underline;
+            border-bottom: 2px solid var(--corDestaque);
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -63,21 +64,21 @@
     </div>
 
     <!-- Menu -->
-    <header id="my-menu-container">
+    <header class="my-menu-container">
         <nav class="navbar navbar-expand-lg mx-5">
 
             <!-- Logo -->
-            <a id="my-menu-logo" class="navbar-brand" href="#">VHP</a>
+            <a class="my-menu-logo navbar-brand" href="../../../index.html">VHP</a>
 
             <!-- Botão Responsivo -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <i id="my-menu-togglerIcon" class="fa-solid fa-bars"></i>
+                <i class="my-menu-togglerIcon fa-solid fa-bars"></i>
             </button>
 
             <!-- Links -->
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul id="my-menu-navegacao" class="navbar-nav ms-auto d-flex align-items-center gap-4">
+                <ul class="my-menu-navegacao navbar-nav ms-auto d-flex align-items-center gap-4">
                     <li> <a href="../../../index.html">Sobre</a> </li>
                     <li> <a href="./habilidades.html">Habilidades</a> </li>
                     <li> <a href="./projetos.html">Projetos</a> </li>

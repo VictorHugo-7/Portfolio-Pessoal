@@ -1,5 +1,5 @@
 /* Container */
-#my-menu-container {
+.my-menu-container {
     position: fixed;
     background-color: var(--corFundo);
     box-shadow: var(--corSombra);
@@ -11,7 +11,7 @@
 
 
 /* Logo */
-#my-menu-logo {
+.my-menu-logo {
     color: var(--corPrimaria);
     font-size: 30px;
     font-weight: 500;
@@ -22,7 +22,7 @@
 
 
 /* Ícone Tema */
-#my-menu-togglerIcon {
+.my-menu-togglerIcon {
     color: var(--corPrimaria);
     font-size: 20px;
 }
@@ -30,7 +30,7 @@
 
 
 /* Links */
-#my-menu-navegacao a {
+.my-menu-navegacao a {
     color: var(--corPrimaria);
     font-size: 16px;
     font-weight: 500;
@@ -39,19 +39,19 @@
     transition: color 0.3s ease-in-out;
 }
 
-#my-menu-navegacao a:hover {
+.my-menu-navegacao a:hover {
     color: var(--corDestaque);
 }
 
-#my-menu-navegacao li {
+.my-menu-navegacao li {
     transition: transform 0.3s ease-in-out;
 }
 
-#my-menu-navegacao li:hover {
+.my-menu-navegacao li:not(:has(i)):hover {
     transform: translateY(-3px);
 }
 
-#my-menu-navegacao li i {
+.my-menu-navegacao li i {
     color: var(--corPrimaria);
     font-size: 16px;
     cursor: pointer;
@@ -59,7 +59,7 @@
     padding: 7px;
 }
 
-#my-menu-navegacao li i:hover {
+.my-menu-navegacao li i:hover {
     background-color: var(--corSecundaria);
     border-radius: 20px;
 }
@@ -68,8 +68,8 @@
 
 /* Responsividade Navegação*/
 @media (max-width: 992px) {
-    #my-menu-navegacao a,
-    #my-menu-navegacao li i {
+    .my-menu-navegacao a,
+    .my-menu-navegacao li i {
         font-size: 20px;
     }
 }
