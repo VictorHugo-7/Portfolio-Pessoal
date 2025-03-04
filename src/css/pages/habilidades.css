@@ -1,3 +1,4 @@
+/* Título */
 .my-s1Habilidades-titulo {
     color: var(--corPrimaria);
     display: inline-block;
@@ -16,6 +17,7 @@
     left: 0;
 }
 
+/* Card */
 .my-s1Habilidades-cardContainer {
     background-color: var(--corFundo) !important;
     color: var(--corPrimaria) !important;

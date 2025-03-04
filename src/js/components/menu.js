@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+    /* Pegar os valores */
     const temaBotao = document.getElementById("my-menu-navegacaoTema");
     const body = document.body;
 
@@ -21,4 +23,3 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
