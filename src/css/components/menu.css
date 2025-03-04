@@ -11,7 +11,11 @@
 
 
 /* Logo */
+<<<<<<< HEAD
 #my-menu-logo {
+=======
+.my-menu-logo {
+>>>>>>> 6b73052b12577c3c7ff221cee82b6ebda703931d
     color: var(--corPrimaria);
     font-size: 30px;
     font-weight: 500;
