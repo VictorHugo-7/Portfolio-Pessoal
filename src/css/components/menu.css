@@ -21,14 +21,6 @@
 
 
 
-/* Ícone Tema */
-.my-menu-togglerIcon {
-    color: var(--corPrimaria);
-    font-size: 20px;
-}
-
-
-
 /* Links */
 .my-menu-navegacao a {
     color: var(--corPrimaria);
@@ -51,6 +43,9 @@
     transform: translateY(-3px);
 }
 
+
+
+/* Ícone Tema */
 .my-menu-navegacao li i {
     color: var(--corPrimaria);
     font-size: 16px;
@@ -66,8 +61,17 @@
 
 
 
+/* Ícone Hambúrguer */
+.my-menu-togglerIcon {
+    color: var(--corPrimaria);
+    font-size: 20px;
+}
+
+
+
 /* Responsividade Navegação*/
 @media (max-width: 992px) {
+
     .my-menu-navegacao a,
     .my-menu-navegacao li i {
         font-size: 20px;
