@@ -1,11 +1,11 @@
-/* Título */
-.my-s1Habilidades-titulo {
-    color: var(--corPrimaria);
-    display: inline-block;
+/* Título Habilidades */
+.my-habilidades-titulo {
     position: relative;
+    display: inline-block;
+    color: var(--corPrimaria);
 }
 
-.my-s1Habilidades-titulo::after {
+.my-habilidades-titulo::after {
     position: absolute;
     display: block;
     background-color: var(--corDestaque);
@@ -17,8 +17,10 @@
     left: 0;
 }
 
+
+
 /* Card */
-.my-s1Habilidades-cardContainer {
+.my-habilidades-cardContainer {
     background-color: var(--corFundo) !important;
     color: var(--corPrimaria) !important;
     box-shadow: var(--corSombra);
@@ -28,10 +30,10 @@
     transition: transform 0.3s;
 }
 
-.my-s1Habilidades-cardContainer:hover {
+.my-habilidades-cardContainer:hover {
     transform: translateY(-3px);
 }
 
-.my-s1Habilidades-cardContainer img {
+.my-habilidades-cardContainer img {
     margin: 5px;
 }
