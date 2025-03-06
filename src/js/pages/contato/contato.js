@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
             })
             .catch(error => {
                 console.error('Erro ao enviar o formulário:', error);
-                alert('Houve um problema ao enviar sua mensagem. Tente novamente mais tarde.');
+                alert('Houve um problema ao enviar sua mensagem. Tente novamente mais tarde. Se o problema persistir, verifique se o AdBlock ou outro bloqueador está ativado e desative-o para esta página.');
             })
             .finally(() => {
                 loadingOverlay.classList.remove('active'); // Garantir que o overlay seja removido
