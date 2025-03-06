@@ -6,9 +6,10 @@
 > Bem-vindo ao meu portfólio! <br>
 > O portfólio apresenta informações sobre mim, minhas habilidades, projetos, certificados e formas de contato.
 
+
 <!--STATUS-->
 ## Status
-> ⏳ Em Desenvolvimento.
+> ✔ Concluído.
 
 
 <!--TECNOLOGIAS-->
