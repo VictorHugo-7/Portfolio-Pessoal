@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('contactForm').addEventListener('submit', function (event) {
         event.preventDefault(); // Impede o comportamento padrão do formulário
 
-        const loadingOverlay = document.getElementById('my-s1Contato-loadingOverlay');
+        const loadingOverlay = document.getElementById('my-contato-loadingOverlay');
         loadingOverlay.classList.add('active'); // Exibir overlay de carregamento
 
         const formData = new FormData(this);

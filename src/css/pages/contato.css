@@ -1,10 +1,11 @@
-.my-s1Contato-titulo {
-    color: var(--corPrimaria);
-    display: inline-block;
+/* Título Contato */
+.my-contato-titulo {
     position: relative;
+    display: inline-block;
+    color: var(--corPrimaria);
 }
 
-.my-s1Contato-titulo::after {
+.my-contato-titulo::after {
     position: absolute;
     display: block;
     background-color: var(--corDestaque);
@@ -16,7 +17,10 @@
     left: 0;
 }
 
-.my-s1Contato-formulario {
+
+
+/* Formulário */
+.my-contato-formulario {
     background-color: var(--corFundo);
     box-shadow: var(--corSombra);
     border-radius: 10px;
@@ -24,55 +28,54 @@
     max-height: 360px;
 }
 
-.my-s1Contato-formulario div span {
+.my-contato-formulario div span {
     display: inline-block;
     text-align: center;
     width: 40px;
 }
 
-.my-s1Contato-formulario div span,
-.my-s1Contato-formulario div span i {
+.my-contato-formulario div span,
+.my-contato-formulario div span i {
     background-color: var(--corSecundaria);
     color: var(--corPrimaria);
 }
 
-.my-s1Contato-formulario div span,
-.my-s1Contato-formulario div input,
-.my-s1Contato-formulario div textarea {
+.my-contato-formulario div span,
+.my-contato-formulario div input,
+.my-contato-formulario div textarea {
     border: 1px solid var(--corCinza);
 }
 
-
-.my-s1Contato-formulario div input,
-.my-s1Contato-formulario div textarea {
+.my-contato-formulario div input,
+.my-contato-formulario div textarea {
     background-color: var(--corFundo);
     color: var(--corCinza);
 }
 
-.my-s1Contato-formulario input:focus,
-.my-s1Contato-formulario textarea:focus {
+.my-contato-formulario input:focus,
+.my-contato-formulario textarea:focus {
     background-color: var(--corFundo);
     color: var(--corCinza);
     border: 1px solid var(--corPrimaria);
     outline: none;
 }
 
-.my-s1Contato-formulario input::placeholder,
-.my-s1Contato-formulario textarea::placeholder {
+.my-contato-formulario input::placeholder,
+.my-contato-formulario textarea::placeholder {
     color: var(--corCinza);
 }
 
-.my-s1Contato-formulario input:-webkit-autofill {
+.my-contato-formulario input:-webkit-autofill {
     background-color: var(--corFundo) !important;
     color: var(--corCinza) !important;
     box-shadow: 0 0 0px 1000px var(--corFundo) inset;
 }
 
-.my-s1Contato-formulario input:-webkit-autofill::first-line {
+.my-contato-formulario input:-webkit-autofill::first-line {
     color: var(--corCinza) !important;
 }
 
-.my-s1Contato-formulario button {
+.my-contato-formulario button {
     width: 100%;
     background-color: var(--corDestaque);
     color: var(--corSecundaria);
@@ -82,12 +85,14 @@
     padding: 3px;
 }
 
-.my-s1Contato-formulario button:hover {
+.my-contato-formulario button:hover {
     opacity: 90%;
 }
 
+
+
 /* Animação Loading */
-.my-s1Contato-loading-overlay {
+.my-contato-loading-overlay {
     position: fixed;
     display: none;
     justify-content: center;
@@ -100,10 +105,12 @@
     height: 100%;
     z-index: 1000;
 }
-.my-s1Contato-loading-overlay.active {
+
+.my-contato-loading-overlay.active {
     display: flex;
 }
-.my-s1Contato-spinner {
+
+.my-contato-spinner {
     border: 8px solid var(--corSecundaria);
     border-top: 8px solid var(--corDestaque);
     border-radius: 50%;
@@ -111,12 +118,21 @@
     height: 60px;
     animation: spinContato 1s linear infinite;
 }
+
 @keyframes spinContato {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
-#my-s1Contato-informacoes {
+
+
+/* Informações */
+.my-contato-informacoes {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -127,27 +143,40 @@
     min-height: 360px
 }
 
-#my-s1Contato-informacoes a {
+.my-contato-informacoes a {
     color: var(--corCinza);
     text-decoration: none;
     font-size: 16px;
     transition: transform 0.3s;
 }
 
-#my-s1Contato-informacoes a:hover {
+.my-contato-informacoes a:hover {
     transform: translateY(-3px);
 }
 
-#my-s1Contato-informacoes a img{
+.my-contato-informacoes a img {
     height: 30px;
     margin-right: 5px;
 }
 
+.my-contato-informacoes a[href="#"] img[alt="Localização"],
+.my-contato-informacoes a[href="#"] img[alt="Email"] {
+    pointer-events: none;
+}
+
+.my-contato-informacoes a[href="#"]:hover {
+    cursor: default;
+}
+
+
+
+/* Responsividade Formulário e Informações */
 @media (max-width: 992px) {
-    .my-s1Contato-formulario{
+    .my-contato-formulario {
         margin-bottom: 48px
     }
-    #my-s1Contato-informacoes{
+
+    .my-contato-informacoes {
         min-height: auto
     }
 }
