@@ -17,20 +17,6 @@
 
 
 /* CSS Body Tema Claro e Escuro */
-body {
-    background-color: var(--corFundo);
-    color: var(--corPrimaria);
-    color: var(--corSecundaria);
-    color: var(--corSombra);
-}
-
-body.dark-mode {
-    background-color: var(--corFundo);
-    color: var(--corPrimaria);
-    color: var(--corSecundaria);
-    color: var(--corSombra);
-}
-
 :root {
     --corFundo: #FFFFFF;
     --corPrimaria: #202630;
@@ -40,6 +26,13 @@ body.dark-mode {
     --corPreto: #000000;
     --corCinza: #6C757D;
     --corDestaque: #007AB9;
+}
+
+body {
+    background-color: var(--corFundo);
+    color: var(--corPrimaria);
+    color: var(--corSecundaria);
+    color: var(--corSombra);
 }
 
 .dark-mode {
