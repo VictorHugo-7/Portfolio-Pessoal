@@ -1,0 +1,39 @@
+/* Título Habilidades */
+.my-habilidades-titulo {
+    position: relative;
+    display: inline-block;
+    color: var(--corPrimaria);
+}
+
+.my-habilidades-titulo::after {
+    position: absolute;
+    display: block;
+    background-color: var(--corDestaque);
+    content: "";
+    border-radius: 20px;
+    width: 30px;
+    height: 3px;
+    margin: 2px 0px;
+    left: 0;
+}
+
+
+
+/* Card */
+.my-habilidades-cardContainer {
+    background-color: var(--corFundo) !important;
+    color: var(--corPrimaria) !important;
+    box-shadow: var(--corSombra);
+    border: none !important;
+    height: 100% !important;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.my-habilidades-cardContainer:hover {
+    transform: translateY(-3px);
+}
+
+.my-habilidades-cardContainer img {
+    margin: 5px;
+}
