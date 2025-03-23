@@ -6,10 +6,21 @@ document.addEventListener("DOMContentLoaded", function () {
             let title = this.getAttribute("data-title");
             let imgSrc = this.getAttribute("data-img");
             let content = this.getAttribute("data-content");
+            let imgWidth = this.getAttribute("data-width") || "500"; 
+            let imgHeight = this.getAttribute("data-height") || "500"; 
+            let modalSize = this.getAttribute("data-modal-size") || "lg";
+
+            // Atualiza o tamanho do modal
+            const modalDialog = document.querySelector("#certificadoModal .modal-dialog");
+            modalDialog.className = "modal-dialog"; // Redefine as classes
+            modalDialog.classList.add(`modal-${modalSize}`);
 
             // Atualiza o modal com os novos dados
             document.getElementById("certificadoModalLabel").textContent = title;
-            document.getElementById("certificadoImg").src = imgSrc;
+            const imgElement = document.getElementById("certificadoImg");
+            imgElement.src = imgSrc;
+            imgElement.style.width = `${imgWidth}px`;
+            imgElement.style.height = `${imgHeight}px`;
             document.getElementById("certificadoConteudo").innerHTML = content;
         });
     });
