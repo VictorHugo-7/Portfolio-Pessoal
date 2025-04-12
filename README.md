@@ -29,45 +29,45 @@
 ## Estrutura de Pastas
 ````
 └── src/
-	├── css/
-	│   ├── components/
-	│   │   └── menu.css
-	│   ├── global/
-	│   │   └── global.css
-	│   └── pages/
-	│       ├── certificados.css
-	│       ├── contato.css
-	│       ├── habilidades.css
-	│       ├── index.css
-	│       └── projetos.css
-	├── html/
-	│   └── pages/
-	│       ├── certificados.html
-	│       ├── contato.html
-	│       ├── habilidades.html
-	│       └── projetos.html
-	├── js/
-	│   ├── components/
-	│   │   └── menu.js
-	│   └── pages/
-	│       ├── certificados/
-	│       │   └── modalCertificados.js
-	│       ├── contato/
-	│       │   └── contato.js
-	│       └── projetos/
-	│           └── modalProjetos.js
-	├── midia/
-	│	├── favicon/
-	│	│   └── site.webmanifest
-	│	└── pages/
-	│		├── certificados/
-	│		├── contato/
-	│		├── index/
-	│		└── projetos/
-	├── CNAME
-	├── LICENSE
-	├── README.md
-	├── index.html
+    ├── css/
+    │   ├── components/
+    │   │   └── menu.css
+    │   ├── global/
+    │   │   └── global.css
+    │   └── pages/
+    │       ├── certificados.css
+    │       ├── contato.css
+    │       ├── habilidades.css
+    │       ├── index.css
+    │       └── projetos.css
+    ├── html/
+    │   └── pages/
+    │       ├── certificados.html
+    │       ├── contato.html
+    │       ├── habilidades.html
+    │       └── projetos.html
+    ├── js/
+    │   ├── components/
+    │   │   └── menu.js
+    │   └── pages/
+    │       ├── certificados/
+    │       │   └── modalCertificados.js
+    │       ├── contato/
+    │       │   └── contato.js
+    │       └── projetos/
+    │           └── modalProjetos.js
+    ├── midia/
+    │	├── favicon/
+    │	│   └── site.webmanifest
+    │	└── pages/
+    │		├── certificados/
+    │		├── contato/
+    │		├── index/
+    │		└── projetos/
+    ├── CNAME
+    ├── LICENSE
+    ├── README.md
+    ├── index.html
 ````
 
 
