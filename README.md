@@ -1,5 +1,5 @@
 <!--TÍTULO-->
-# Portfólio Pessoal⠀<img src="https://cdn-icons-png.flaticon.com/128/780/780555.png" height="30px" alt="Ícone Portfólio">
+# Portfólio Pessoal
 
 
 <!--DESCRIÇÃO-->
@@ -21,7 +21,7 @@
 
 <!--PROTÓTIPO-->
 ## Protótipo
-![Protótipo](https://github.com/user-attachments/assets/b711b746-9189-4db5-b470-9b38f000a968)
+[![](https://img.shields.io/badge/Figma--5C5C5C?logo=figma&logoColor=white)](https://www.figma.com/design/22DFHV6hD1hQMxYAlNjr0S/Portfolio-Pessoal?t=5KAcwSvzdnTQoeoP-1)
 
 
 <!--ESTRUTURA DE PASTAS -->
@@ -76,3 +76,8 @@
 ![](https://visitor-badge.laobi.icu/badge?page_id=VictorHugo-7.Portfolio-Pessoal)
 ![Tamanho do Repositório](https://img.shields.io/github/repo-size/VictorHugo-7/Portfolio-Pessoal)
 ![Linguagens](https://img.shields.io/github/languages/top/VictorHugo-7/Portfolio-Pessoal)
+
+
+<!--LICENÇA-->
+## Licença
+[Veja a licença](https://github.com/VictorHugo-7/Portfolio-Pessoal/blob/main/LICENSE)
