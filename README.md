@@ -21,7 +21,7 @@
 
 <!--PROTÓTIPO-->
 ## Protótipo
-[![](https://img.shields.io/badge/Figma--5C5C5C?logo=figma&logoColor=white)](https://www.figma.com/design/7KAFlbf0Si184cLgSl07XW/Portfolio-Pessoal?node-id=0-1&t=aswMKBpHH8azbO7Q-1)
+[![](https://img.shields.io/badge/Figma--5C5C5C?logo=figma&logoColor=white)](https://www.figma.com/design/22DFHV6hD1hQMxYAlNjr0S/Portfolio-Pessoal?t=5KAcwSvzdnTQoeoP-1)
 
 
 <!--ESTRUTURA DE PASTAS -->
