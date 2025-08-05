@@ -1,5 +1,7 @@
-import NavBar from "./components/NavBar";
 /* import SpacingVertical from "./components/SpacingVertical"; */
+import NavBar from "./components/NavBar";
+/* import Footer from "./components/Footer"; */
+
 
 function App() {
     return (
