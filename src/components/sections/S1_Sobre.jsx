@@ -60,7 +60,7 @@ function S1_Sobre({ isDark }) {
     }, [currentIndex, text, startTyping]);
 
     return (
-        <div className="px-6 md:px-12 flex flex-col lg:flex-row items-center gap-14 lg:gap-20">
+        <div className="px-6 lg:px-12 flex flex-col lg:flex-row items-center gap-14 lg:gap-20">
             <div
                 className={`transform transition-all duration-1000 ease-out ${showTextSection
                     ? 'translate-x-0 opacity-100'
