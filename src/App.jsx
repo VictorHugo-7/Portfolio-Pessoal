@@ -4,7 +4,6 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import S1_Sobre from "./components/sections/S1_Sobre";
 
-
 function App() {
     const [isDark, setIsDark] = useState(false);
 
