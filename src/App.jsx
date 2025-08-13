@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import SpacingVertical from "./components/SpacingVertical";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import S1_Sobre from "./components/sections/S1_Sobre";
+import S1_Sobre from "./sections/S1_Sobre.jsx";
 
 function App() {
     const [isDark, setIsDark] = useState(false);

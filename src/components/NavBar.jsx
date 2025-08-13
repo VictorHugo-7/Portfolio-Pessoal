@@ -4,10 +4,10 @@ import logo_light from "../assets/NavBar/logo_light.svg";
 import logo_dark from "../assets/NavBar/logo_dark.svg";
 
 function NavBar({ isDark, setIsDark }) {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [menuAberto, setMenuAberto] = useState(false);
 
-    const toggleDarkMode = () => { setIsDark(!isDark); };
-    const toggleMenu = () => { setIsMenuOpen(!isMenuOpen); };
+    const alternarModoEscuro = () => { setIsDark(!isDark); };
+    const alternarMenu = () => { setMenuAberto(!menuAberto); };
 
     return (
         <div className="z-50 px-6 lg:px-12 py-2.5 fixed w-full flex justify-between items-center bg-[var(--color-background)] border-b border-[var(--color-secondary)] text-[var(--color-primary)]">
@@ -26,7 +26,7 @@ function NavBar({ isDark, setIsDark }) {
                 </ul>
 
                 <button
-                    onClick={toggleDarkMode}
+                    onClick={alternarModoEscuro}
                     className="p-1 flex items-center gap-2 border-2 border-[var(--color-secondary)] rounded-md cursor-pointer hover:bg-[var(--color-secondary)] transition-all">
                     {isDark
                         ? <Sun size={20} className="fill-[var(--color-primary)]" />
@@ -37,24 +37,24 @@ function NavBar({ isDark, setIsDark }) {
 
             {/* Menu Mobile */}
             <div className="lg:hidden flex items-center gap-6">
-                <button onClick={toggleDarkMode}>
+                <button onClick={alternarModoEscuro}>
                     {isDark
                         ? <Sun size={22} className="fill-[var(--color-primary)]" />
                         : <Moon size={22} className="fill-[var(--color-primary)]" />}
                 </button>
-                <button onClick={toggleMenu}>
-                    {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+                <button onClick={alternarMenu}>
+                    {menuAberto ? <X size={28} /> : <Menu size={28} />}
                 </button>
             </div>
 
             {/* Dropdown Mobile */}
-            {isMenuOpen && (
+            {menuAberto && (
                 <div className="absolute top-12 left-0 w-full flex flex-col items-center gap-6 py-2 bg-[var(--color-background)] text-[var(--color-primary)] border-b border-[var(--color-secondary)] md:hidden z-40">
-                    <a href="#sobre" onClick={toggleMenu} className="hover:text-[var(--color-highlight)] transition-colors duration-400 ease-in-out">Sobre</a>
-                    <a href="#habilidades" onClick={toggleMenu} className="hover:text-[var(--color-highlight)] transition-colors duration-400 ease-in-out">Habilidades</a>
-                    <a href="#projetos" onClick={toggleMenu} className="hover:text-[var(--color-highlight)] transition-colors duration-400 ease-in-out">Projetos</a>
-                    <a href="#certificados" onClick={toggleMenu} className="hover:text-[var(--color-highlight)] transition-colors duration-400 ease-in-out">Certificados</a>
-                    <a href="#contato" onClick={toggleMenu} className="hover:text-[var(--color-highlight)] transition-colors duration-400 ease-in-out">Contato</a>
+                    <a href="#sobre" onClick={alternarMenu} className="hover:text-[var(--color-highlight)] transition-colors duration-400 ease-in-out">Sobre</a>
+                    <a href="#habilidades" onClick={alternarMenu} className="hover:text-[var(--color-highlight)] transition-colors duration-400 ease-in-out">Habilidades</a>
+                    <a href="#projetos" onClick={alternarMenu} className="hover:text-[var(--color-highlight)] transition-colors duration-400 ease-in-out">Projetos</a>
+                    <a href="#certificados" onClick={alternarMenu} className="hover:text-[var(--color-highlight)] transition-colors duration-400 ease-in-out">Certificados</a>
+                    <a href="#contato" onClick={alternarMenu} className="hover:text-[var(--color-highlight)] transition-colors duration-400 ease-in-out">Contato</a>
                 </div>
             )}
         </div>
