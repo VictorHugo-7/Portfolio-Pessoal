@@ -23,7 +23,7 @@ function App() {
                 <S1_Sobre isDark={isDark} />
             </div>
 
-            {/* <div id="habilidades">
+            <div id="habilidades">
                 <SpacingVertical size={50.67} />
                 HABILIDADES <br />
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus deleniti nostrum ipsa id ullam repudiandae ab itaque aut? Labore commodi at cumque ullam neque, provident eaque aliquid quidem rem quae!
@@ -81,7 +81,7 @@ function App() {
                 Obcaecati quod, accusantium odio officia ea eius nulla veritatis tempora libero quae corporis repellendus maxime, at necessitatibus officiis a nesciunt fugit in debitis? Enim illo aut labore numquam? Asperiores, impedit!
                 Doloribus, consequatur! Modi impedit recusandae labore, ipsam temporibus dolorem provident at veniam perferendis asperiores quidem aspernatur reiciendis animi. Natus labore, dignissimos suscipit ipsum quae inventore fugiat perferendis sint ipsam similique.
                 Voluptatibus ex, ducimus maiores ullam dolor autem voluptates, asperiores tenetur perspiciatis eaque facilis magnam quod tempora quo deleniti reprehenderit id eos laborum magni totam eveniet soluta commodi ut. Accusantium, sed.
-            </div> */}
+            </div>
             <SpacingVertical size={50.67} />
             <Footer />
         </div>
