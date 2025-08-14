@@ -1,22 +1,7 @@
-import { useState } from 'react';
 import Card from "./Card";
-import ModalCertificado from "./ModalCertificado";
 import dados from "../../db/S4_Certificados/db.json";
 
 function S4_Certificados() {
-    const [modalAberto, setModalAberto] = useState(false);
-    const [certificadoSelecionado, setCertificadoSelecionado] = useState(null);
-
-    const abrirModal = (certificado) => {
-        setCertificadoSelecionado(certificado);
-        setModalAberto(true);
-    };
-
-    const fecharModal = () => {
-        setModalAberto(false);
-        setCertificadoSelecionado(null);
-    };
-
     return (
         <div className="px-6 lg:px-12">
             <h5 className="mb-6 relative inline-block text-lg text-[var(--color-primary)] font-semibold 
@@ -29,16 +14,9 @@ function S4_Certificados() {
                     <Card
                         key={index}
                         certificado={certificado}
-                        aoClicarVerCertificado={abrirModal}
                     />
                 ))}
             </div>
-
-            <ModalCertificado
-                estaAberto={modalAberto}
-                aoFechar={fecharModal}
-                certificado={certificadoSelecionado}
-            />
         </div>
     );
 }
