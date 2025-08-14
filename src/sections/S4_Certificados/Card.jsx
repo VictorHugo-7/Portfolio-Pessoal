@@ -10,7 +10,7 @@ function Card({ certificado }) {
                     <img
                         src={certificado.iconeEmpresa}
                         alt={certificado.nomeEmpresa}
-                        className="mb-5 h-[50px] text-[12px] rounded-sm"
+                        className="mb-5 h-[50px] text-[12px] rounded-md"
                     />
                 </div>
 
