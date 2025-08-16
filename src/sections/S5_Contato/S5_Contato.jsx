@@ -10,10 +10,14 @@ function S5_Contato() {
                 Contatos
             </h5>
 
-            <div className="flex flex-col lg:flex-row justify-between gap-5 lg:gap-10">
+            <div className="flex flex-col lg:flex-row justify-between gap-7 lg:gap-10">
+                <div className="w-full lg:w-[70%]">
+                    <Formulario />
+                </div>
 
-                <Formulario />
-                <Informacao />
+                <div className="w-full lg:w-[30%]">
+                    <Informacao />
+                </div>
             </div>
         </div>
     );

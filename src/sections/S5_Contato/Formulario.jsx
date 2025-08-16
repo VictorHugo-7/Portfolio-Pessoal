@@ -205,7 +205,7 @@ function Formulario() {
 
             {/* Overlay de carregamento */}
             {estaCarregando && (
-                <div className="fixed top-0 left-0 w-full h-full bg-[var(--color-black)] bg-opacity-90 flex justify-center items-center z-[1000]">
+                <div className="fixed top-0 left-0 w-full h-full bg-[color:var(--color-black)]/90 flex justify-center items-center z-[1000]">
                     <div className="w-15 h-15 border-8 border-[var(--color-gray)] border-t-[var(--color-highlight)] rounded-full animate-spin"></div>
                 </div>
             )}
