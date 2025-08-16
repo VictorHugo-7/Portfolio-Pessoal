@@ -9,15 +9,18 @@ import S4_Certificados from "./sections/S4_Certificados/S4_Certificados.jsx";
 import S5_Contato from "./sections/S5_Contato/S5_Contato.jsx";
 
 function App() {
-    const [isDark, setIsDark] = useState(false);
+    const [isDark, setIsDark] = useState(() => {
+        return localStorage.getItem('theme') === 'dark';
+    });
 
     useEffect(() => {
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+
         if (isDark)
             document.documentElement.classList.add('dark');
         else
             document.documentElement.classList.remove('dark');
     }, [isDark]);
-
 
     return (
         <div>
