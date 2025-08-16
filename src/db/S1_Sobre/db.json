@@ -8,18 +8,21 @@
     {
       "icone": "fa-solid fa-leaf",
       "texto": "Email",
+      "link": "mailto:victorhotpinho7@gmail.com",
       "iconeDark": "src/assets/sections/S1_Sobre/dark/email.svg",
       "iconeLight": "src/assets/sections/S1_Sobre/light/email.svg"
     },
     {
       "icone": "fa-solid fa-hand-holding-heart",
       "texto": "Linkedin",
+      "link": "https://www.linkedin.com/in/victor-hugo-pinho",
       "iconeDark": "src/assets/sections/S1_Sobre/dark/linkedin.svg",
       "iconeLight": "src/assets/sections/S1_Sobre/light/linkedin.svg"
     },
     {
       "icone": "fa-solid fa-pen-to-square",
       "texto": "GitHub",
+      "link": "https://github.com/VictorHugo-7",
       "iconeDark": "src/assets/sections/S1_Sobre/dark/github.svg",
       "iconeLight": "src/assets/sections/S1_Sobre/light/github.svg"
     }

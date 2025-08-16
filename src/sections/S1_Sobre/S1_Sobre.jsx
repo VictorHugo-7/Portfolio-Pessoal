@@ -66,7 +66,9 @@ function S1_Sobre({ isDark }) {
                     {botoes.map((botao, index) => (
                         <a
                             key={index}
-                            href="#"
+                            href={botao.link}
+                            target={botao.link.startsWith('http') ? '_blank' : '_self'}
+                            rel={botao.link.startsWith('http') ? 'noopener noreferrer' : undefined}
                             className="p-2 flex items-center gap-2 bg-[var(--color-highlight)] text-[var(--color-secondary)] font-bold rounded-md hover:scale-103 duration-300"
                         >
                             <img
