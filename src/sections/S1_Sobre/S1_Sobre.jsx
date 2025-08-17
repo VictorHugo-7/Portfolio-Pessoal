@@ -10,7 +10,7 @@ function S1_Sobre({ isDark }) {
     const [mostrarImagem, setMostrarImagem] = useState(false);
     const [iniciarDigitacao, setIniciarDigitacao] = useState(false);
 
-    const { titulo1, titulo2, subtitulo, descricao1, descricao2, botoes, imagem } = dados;
+    const { titulo1, titulo2, subtitulo, descricao1, descricao2, botoes, imagem } = dados.sobre;
 
     useEffect(() => {
         const timeoutTexto = setTimeout(() => setMostrarSecaoTexto(true), 300);
