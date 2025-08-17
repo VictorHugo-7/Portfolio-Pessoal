@@ -1,10 +1,12 @@
-function Card({ certificado }) {
+function Card({ certificado, delay }) {
     return (
-        <div className="flex flex-col justify-between bg-[var(--color-background)] text-[var(--color-primary)] border-[1.5px] border-[var(--color-secondary)] rounded-md transition-transform duration-300 hover:-translate-y-[3px] cursor-default">
-
+        <div
+            data-aos="fade-up"
+            data-aos-delay={delay}
+            className="flex flex-col justify-between bg-[var(--color-background)] text-[var(--color-primary)] border-[1.5px] border-[var(--color-secondary)] rounded-md transition-transform duration-300 hover:-translate-y-[3px] cursor-default"
+        >
             {/* Conteúdo */}
             <div className="p-4">
-
                 {/* Empresa */}
                 <div className="flex items-center justify-center">
                     <img
@@ -30,7 +32,6 @@ function Card({ certificado }) {
 
             {/* Rodapé */}
             <div className="p-4 py-2 flex justify-end items-center border-t-[1.5px] border-[var(--color-secondary)]">
-
                 {/* Botão para abrir o LinkedIn */}
                 {certificado.links?.linkedin && (
                     <a
