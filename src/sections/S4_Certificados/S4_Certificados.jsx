@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Card from "./Card";
-import dados from "../../db/S4_Certificados/db.json";
+import dados from "../../db/S4_Certificados/db.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -18,8 +18,8 @@ function S4_Certificados() {
                 data-aos="fade-up"
                 data-aos-delay="100"
                 className="mb-6 relative inline-block text-lg text-[var(--color-primary)] font-semibold 
-                    after:absolute after:block after:bg-[var(--color-highlight)] after:content-[''] 
-                    after:rounded-full after:w-8 after:h-1 after:mt-1 after:left-0"
+                           after:absolute after:block after:bg-[var(--color-highlight)] after:content-[''] 
+                           after:rounded-full after:w-8 after:h-1 after:mt-1 after:left-0"
             >
                 Certificados
             </h5>
