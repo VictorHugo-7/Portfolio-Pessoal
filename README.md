@@ -14,9 +14,9 @@
 
 <!--TECNOLOGIAS-->
 ## Tecnologias
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="40"/> |
-|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| React                                                                                                     | Tailwind CSS                                                                                                   | Vite                                                                                                        | Figma                                                                                                     |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="40"/> |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| React                                                                                                      | Tailwind CSS                                                                                                           | Vite                                                                                                         | Node.js                                                                                                      | JavaScript                                                                                                   | Figma                                                                                                      |                                                                                             |
 
 
 <!--PROTÓTIPO-->
@@ -28,7 +28,62 @@
 <!-- https://gitingest.com/ -->
 ## Estrutura de Pastas
 ````
-
+├── public/
+│   └── CNAME
+├── src/
+│   ├── assets/
+│   │   ├── NavBar/
+│   │   ├── favicon/
+│   │   ├── sections/
+│   │   │   ├── S1_Sobre/
+│   │   │   ├── S2_Habilidades/
+│   │   │   ├── S3_Projetos/
+│   │   │   ├── S4_Certificados/
+│   │   │   └── S5_Contato/
+│   │   │       └── icons/
+│   │   └── site.webmanifest
+│   ├── components/
+│   │   ├── Footer.jsx
+│   │   ├── NavBar.jsx
+│   │   └── SpacingVertical.jsx
+│   ├── db/
+│   │   ├── S1_Sobre/
+│   │   │   └── db.js
+│   │   ├── S2_Habilidades/
+│   │   │   └── db.js
+│   │   ├── S3_Projetos/
+│   │   │   └── db.js
+│   │   ├── S4_Certificados/
+│   │   │   └── db.js
+│   │   └── S5_Contato/
+│   │       └── db.js
+│   ├── sections/
+│   │   ├── S1_Sobre/
+│   │   │   └── S1_Sobre.jsx
+│   │   ├── S2_Habilidades/
+│   │   │   ├── Icon.jsx
+│   │   │   └── S2_Habilidades.jsx
+│   │   ├── S3_Projetos/
+│   │   │   ├── Card.jsx
+│   │   │   └── S3_Projetos.jsx
+│   │   ├── S4_Certificados/
+│   │   │   ├── Card.jsx
+│   │   │   └── S4_Certificados.jsx
+│   │   └── S5_Contato/
+│   │       ├── Formulario.jsx
+│   │       ├── Informacao.jsx
+│   │       └── S5_Contato.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── LICENSE
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+└── vite.config.js
 ````
 
 
@@ -42,3 +97,10 @@
 <!--LICENÇA-->
 ## Licença
 [Veja a licença](https://github.com/VictorHugo-7/Portfolio-Pessoal/blob/main/LICENSE)
+
+<!-- 
+git add .
+git commit -m "Sua mensagem de atualização"
+git push origin main
+npm run deploy
+-->
