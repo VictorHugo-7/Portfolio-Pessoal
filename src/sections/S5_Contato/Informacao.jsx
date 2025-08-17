@@ -1,4 +1,4 @@
-import dados from '../../db/S5_Contato/db.json'
+import dados from '../../db/S5_Contato/db.js';
 
 function Informacao() {
     return (
