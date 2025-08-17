@@ -12,7 +12,7 @@ function Card({ projeto }) {
             <div className="p-4">
 
                 {/* Imagem */}
-                <div className="text-">
+                <div className="flex justify-center items-center">
                     <img
                         src={projeto.imagem}
                         alt={projeto.titulo}
