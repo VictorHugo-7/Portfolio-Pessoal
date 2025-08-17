@@ -174,7 +174,7 @@ function Formulario() {
                     onClick={manipularEnvio}
                     className="py-2 px-4 w-full bg-[var(--color-highlight)] text-[var(--color-white)] font-semibold rounded-md hover:opacity-90 transition cursor-pointer"
                 >
-                    Enviar
+                    Enviar Mensagem
                 </button>
             </div>
 
