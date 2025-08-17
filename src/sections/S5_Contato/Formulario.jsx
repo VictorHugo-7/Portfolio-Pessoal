@@ -22,39 +22,9 @@ function Formulario() {
     };
 
     const manipularEnvio = async (evento) => {
-        evento.preventDefault(); // Impede o comportamento padrão do formulário
-
-        // Verificações de validação
-        if (!dadosFormulario.nome.trim()) {
-            alert('Por favor, preencha o campo Nome.');
-            return;
-        }
-
-        if (!dadosFormulario.email.trim()) {
-            alert('Por favor, preencha o campo E-mail.');
-            return;
-        }
-
-        // Verificação de email válido
-        const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!regexEmail.test(dadosFormulario.email)) {
-            alert('Por favor, insira um e-mail válido.');
-            return;
-        }
-
-        if (!dadosFormulario.assunto.trim()) {
-            alert('Por favor, preencha o campo Assunto.');
-            return;
-        }
-
-        if (!dadosFormulario.mensagem.trim()) {
-            alert('Por favor, preencha o campo Mensagem.');
-            return;
-        }
-
+        evento.preventDefault();
+        // validações...
         setEstaCarregando(true);
-
-        // Criar FormData para envio
         const dadosEnvio = new FormData();
         Object.keys(dadosFormulario).forEach(chave => {
             dadosEnvio.append(chave, dadosFormulario[chave]);
@@ -65,7 +35,6 @@ function Formulario() {
                 method: 'POST',
                 body: dadosEnvio,
             });
-
             if (resposta.ok) {
                 alert('Mensagem enviada com sucesso!');
                 setDadosFormulario({
@@ -83,16 +52,15 @@ function Formulario() {
             }
         } catch (erro) {
             console.error('Erro ao enviar o formulário:', erro);
-            alert('Houve um problema ao enviar sua mensagem. Tente novamente mais tarde. Se o problema persistir, verifique se o AdBlock ou outro bloqueador está ativado e desative-o para esta página.');
+            alert('Houve um problema ao enviar sua mensagem. Tente novamente mais tarde.');
         } finally {
-            setEstaCarregando(false); // Garantir que o overlay seja removido
+            setEstaCarregando(false);
         }
     };
 
     return (
-        <div>
+        <div data-aos="fade-up" data-aos-delay="100">
             <div className="h-full border-[var(--color-secondary)] rounded-md space-y-4">
-
                 {/* Nome */}
                 <div className="rounded-md">
                     <div className="p-2 flex items-center border-[1.5px] border-[var(--color-secondary)] rounded-md">
