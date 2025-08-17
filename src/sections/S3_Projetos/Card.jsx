@@ -6,16 +6,18 @@ import figma from '../../assets/sections/S3_Projetos/icons/figma.svg'
 
 function Card({ projeto }) {
     return (
-        <div className="flex flex-col justify-between bg-[var(--color-background)] text-[var(--color-primary)] border-[1.5px] border-[var(--color-secondary)] rounded-md transition-transform duration-300 hover:-translate-y-[3px]">
+        <div className="flex flex-col justify-between bg-[var(--color-background)] text-[var(--color-primary)] border-[1.5px] border-[var(--color-secondary)] rounded-md transition-transform duration-300 hover:-translate-y-[3px] cursor-default">
 
             {/* Conteúdo */}
             <div className="p-4">
 
                 {/* Imagem */}
-                <img
-                    src={projeto.imagem}
-                    alt={projeto.titulo}
-                    className="mb-5 text-[12px]" />
+                <div className="text-">
+                    <img
+                        src={projeto.imagem}
+                        alt={projeto.titulo}
+                        className="mb-5 text-[12px] h-[90px]" />
+                </div>
 
                 {/* Título e Ano */}
                 <div className="flex justify-between items-center font-semibold">

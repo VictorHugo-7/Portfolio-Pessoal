@@ -1,17 +1,17 @@
 {
   "projetos": [
-    {
-      "imagem": "",
-      "titulo": "Sistema | Fisiofit",
+      {
+      "imagem": "src/assets/sections/S3_Projetos/images/portfolio.png",
+      "titulo": "Portfólio | Pessoal",
       "ano": "2025",
-      "descricao": "O sistema consiste em sugerir exercícios simples de alongamento ou respiração, auxiliando os usuários a incorporarem práticas de autocuidado em suas rotinas diárias.",
-      "tecnologias": ["HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "MongoDB", "Figma"],
+      "descricao": "O portfólio apresenta informações sobre mim, minhas habilidades, projetos, certificados e formas de contato.",
+      "tecnologias": ["React", "Tailwind", "Vite", "Node.js", "Figma"],
       "links": {
         "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/projects/",
-        "github": "https://github.com/VictorHugo-7/Sistema-FisioFit",
-        "figma": "https://www.figma.com/design/9zVJuRG7eACAAFGDM3D5Xq/Sistema-FisioFit?t=5KAcwSvzdnTQoeoP-1"
+        "github": "https://github.com/VictorHugo-7/Portfolio-Pessoal",
+        "figma": "https://www.figma.com/design/22DFHV6hD1hQMxYAlNjr0S/Portfolio-Pessoal?t=5KAcwSvzdnTQoeoP-1"
       },
-      "status": "Andamento"
+      "status": "Concluído"
     },
     {
       "imagem": "src/assets/sections/S3_Projetos/images/mauaEsports.png",
@@ -23,19 +23,6 @@
         "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/projects/",
         "github": "https://github.com/VictorHugo-7/S3-Site-MauaEsports",
         "figma": "https://www.figma.com/design/LuwuqQ4VbyyILJQK0vf7Oo/S3-Site-MauaEsports?t=5KAcwSvzdnTQoeoP-1"
-      },
-      "status": "Concluído"
-    },
-    {
-      "imagem": "",
-      "titulo": "Portfólio | Pessoal",
-      "ano": "2025",
-      "descricao": "O portfólio apresenta informações sobre mim, minhas habilidades, projetos, certificados e formas de contato.",
-      "tecnologias": ["HTML", "CSS", "JavaScript", "Bootstrap", "Figma"],
-      "links": {
-        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/projects/",
-        "github": "https://github.com/VictorHugo-7/Portfolio-Pessoal",
-        "figma": "https://www.figma.com/design/22DFHV6hD1hQMxYAlNjr0S/Portfolio-Pessoal?t=5KAcwSvzdnTQoeoP-1"
       },
       "status": "Concluído"
     },
@@ -67,3 +54,4 @@
     }
   ]
 }
+ 
