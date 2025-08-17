@@ -57,7 +57,7 @@ function App() {
                 <S5_Contato />
             </div>
 
-            <SpacingVertical size={50.67} />
+            <SpacingVertical size={80} />
             <Footer />
         </div>
     );
