@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useLayoutEffect } from "react";
 import SpacingVertical from "./components/SpacingVertical";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
@@ -12,6 +12,13 @@ function App() {
     const [isDark, setIsDark] = useState(() => {
         return localStorage.getItem('theme') === 'dark';
     });
+
+    useLayoutEffect(() => {
+        if ("scrollRestoration" in window.history) {
+            window.history.scrollRestoration = "manual";
+        }
+        window.scrollTo(0, 0);
+    }, []);
 
     useEffect(() => {
         localStorage.setItem('theme', isDark ? 'dark' : 'light');
