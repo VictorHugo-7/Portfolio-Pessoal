@@ -1,0 +1,125 @@
+{
+  "certificados": [
+    {
+      "iconeEmpresa": "src/assets/sections/S4_Certificados/empresas/imt.jpeg",
+      "nomeCertificado": "A Bolsa de Valores no Brasil e Seus Ativos Financeiros",
+      "nomeEmpresa": "Instituto Mauá de Tecnologia",
+      "anoEmitido": "2025",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/overlay/1751919228757/single-media-viewer/?type=DOCUMENT&profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2FwcEsu6NQwyrHdYQA0Zh1A%3D%3D"
+      },
+      "fotoCertificado": "src/assets/sections/S4_Certificados/certificados/aBolsaDeValoresNoBrasilESeusAtivosFinanceiros.png",
+      "conteudoCertificado": "- A História das Bolsas Brasileiras<br> - O Mercado de Ações<br> - Índice de Ações<br> - O Mercado de Opções<br> - ETFs – Exchange Traded Fund<br> - Listagem Internacional (ADR, BDRs)<br> - Empréstimos<br> - Mercados Futuros<br> - Renda Fixa<br>"
+    },
+    {
+      "iconeEmpresa": "src/assets/sections/S4_Certificados/empresas/imt.jpeg",
+      "nomeCertificado": "Preparatório para Desafios de Segurança Cibernética",
+      "nomeEmpresa": "Instituto Mauá de Tecnologia",
+      "anoEmitido": "2025",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/overlay/1751918846249/single-media-viewer/?type=DOCUMENT&profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2FwcEsu6NQwyrHdYQA0Zh1A%3D%3D"
+      },
+      "fotoCertificado": "src/assets/sections/S4_Certificados/certificados/preparatorioParaDesafiosDeSegurancaCibernetica.png",
+      "conteudoCertificado": "- Domínio 1: Uso do Linux e Ferramentas<br> - Domínio 2: Criptografia<br> - Domínio 3: Redes/Forense<br> - Domínio 4: Exploração Web<br>"
+    },
+    {
+      "iconeEmpresa": "src/assets/sections/S4_Certificados/empresas/microsoft.jpeg",
+      "nomeCertificado": "Introdução ao Azure DevOps",
+      "nomeEmpresa": "Microsoft",
+      "anoEmitido": "2025",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/1746277200426/single-media-viewer?type=DOCUMENT&profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BbbQoQzVQTTC3XDIcDYkvAQ%3D%3D"
+      },
+      "fotoCertificado": "src/assets/sections/S4_Certificados/certificados/introducaoAoAzureDevOps.png",
+      "conteudoCertificado": "- Avaliação de tecnologias e processos atuais por meio de Mapas de Fluxo de Valor <br> - Configuração e utilização de uma organização gratuita no Azure DevOps<br> - Planejamento e acompanhamento eficiente de itens de trabalho com Azure Boards<br> - Otimização de cargas de trabalho em Sprints Multi-equipes no contexto Agile<br>"
+    },
+    {
+      "iconeEmpresa": "src/assets/sections/S4_Certificados/empresas/credly.jpeg",
+      "nomeCertificado": "Fundamentos de Gerenciamento Ágil de Projetos",
+      "nomeEmpresa": "Credly by Pearson",
+      "anoEmitido": "2025",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/1741863795468/single-media-viewer?type=IMAGE&profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BbbQoQzVQTTC3XDIcDYkvAQ%3D%3D"
+      },
+      "fotoCertificado": "src/assets/sections/S4_Certificados/certificados/fundamentosDeGerenciamentoAgilDeProjetos.png",
+      "conteudoCertificado": "- Criação De Histórias De Usuários <br> - Estabelecendo O Ambiente Scrum<br> - Execução De Sprint<br> - Formação De Backlog<br> - Planejamento & Alinhamento De Produtos<br> - Planejamento De Sprint<br> - Rastreamento De Sprint"
+    },
+    {
+      "iconeEmpresa": "src/assets/sections/S4_Certificados/empresas/credly.jpeg",
+      "nomeCertificado": "Fundamentos do Gerenciamento de Projetos Preditivos",
+      "nomeEmpresa": "Credly by Pearson",
+      "anoEmitido": "2025",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/1741899513946/single-media-viewer?type=IMAGE&profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BbbQoQzVQTTC3XDIcDYkvAQ%3D%3D"
+      },
+      "fotoCertificado": "src/assets/sections/S4_Certificados/certificados/fundamentosDoGerenciamentoDeProjetosPreditivos.png",
+      "conteudoCertificado": "- Agendamento De Projetos <br> - Coleta De Requisitos<br> - Delegação De Tarefas<br> - Mitigação De Riscos<br> - Planejamento E Alinhamento De Projetos<br> - Rastreamento De Projetos"
+    },
+    {
+      "iconeEmpresa": "src/assets/sections/S4_Certificados/empresas/imt.jpeg",
+      "nomeCertificado": "Técnicas de Negociação Muito Além de Preço e Prazo",
+      "nomeEmpresa": "Instituto Mauá de Tecnologia",
+      "anoEmitido": "2024",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/1738793348350/single-media-viewer?type=DOCUMENT&profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BbbQoQzVQTTC3XDIcDYkvAQ%3D%3D"
+      },
+      "fotoCertificado": "src/assets/sections/S4_Certificados/certificados/tecnicasDeNegociacaoMuitoAlemDePrecoEPrazo.png",
+      "conteudoCertificado": "- Negociação Conceitos <br> - Percepção e 7 Elementos Básicos Negociação<br> - Posição x Interesse<br> - Comunicação e o Impacto da linguagem cultural<br> - O Processo de Negociação<br> - Princípios da Influência"
+    },
+    {
+      "iconeEmpresa": "src/assets/sections/S4_Certificados/empresas/even3.jpeg",
+      "nomeCertificado": "Uma introdução à inteligência de ameaças de forma operacional",
+      "nomeEmpresa": "Even3",
+      "anoEmitido": "2024",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/1738793534435/single-media-viewer?type=DOCUMENT&profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BbbQoQzVQTTC3XDIcDYkvAQ%3D%3D"
+      },
+      "fotoCertificado": "src/assets/sections/S4_Certificados/certificados/umaIntroducaoAInteligenciaDeAmeacasDeFormaOperacional.png",
+      "conteudoCertificado": ""
+    },
+    {
+      "iconeEmpresa": "src/assets/sections/S4_Certificados/empresas/imt.jpeg",
+      "nomeCertificado": "Desenvolvimento de Aplicações Híbridas com Flutter",
+      "nomeEmpresa": "Instituto Mauá de Tecnologia",
+      "anoEmitido": "2024",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/1738792979152/single-media-viewer?type=DOCUMENT&profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BbbQoQzVQTTC3XDIcDYkvAQ%3D%3D"
+      },
+      "fotoCertificado": "src/assets/sections/S4_Certificados/certificados/desenvolvimentoDeAplicacoesHibridasComFlutter.png",
+      "conteudoCertificado": "- Introdução ao Flutter <br> - O que é Dart?<br> - Aplicação Flutter<br> - Widgets<br> - Stateless x Stateful<br> - Responsividade"
+    },
+    {
+      "iconeEmpresa": "src/assets/sections/S4_Certificados/empresas/oracle.jpeg",
+      "nomeCertificado": "Oracle Java Foundations",
+      "nomeEmpresa": "Oracle",
+      "anoEmitido": "2024",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/1738792751079/single-media-viewer?type=DOCUMENT&profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BbbQoQzVQTTC3XDIcDYkvAQ%3D%3D"
+      },
+      "fotoCertificado": "src/assets/sections/S4_Certificados/certificados/oracleJavaFoundations.png",
+      "conteudoCertificado": "- Introdução <br> - Desenvolvimento de Software em Java<br> - Tipos de Dados em Java<br> - Métodos e Classes da Biblioteca Java<br> - Estruturas de Decisão<br> - Estruturas de Repetição<br> - Criando Classes<br> - Arrays e Exceções<br> - JavaFX<br>"
+    },
+    {
+      "iconeEmpresa": "src/assets/sections/S4_Certificados/empresas/imt.jpeg",
+      "nomeCertificado": "Reconhecimento facial e identificação de objetos com Python",
+      "nomeEmpresa": "Instituto Mauá de Tecnologia",
+      "anoEmitido": "2024",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/1738792869521/single-media-viewer?type=DOCUMENT&profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BbbQoQzVQTTC3XDIcDYkvAQ%3D%3D"
+      },
+      "fotoCertificado": "src/assets/sections/S4_Certificados/certificados/reconhecimentoFacialEIdentificacaoDeObjetosComPython.png",
+      "conteudoCertificado": "- Identificar Carros <br> - Identificar Gatos e Gráficos de Histograma?<br> - Identificar Rosto (com Olhos Abertos ou Fechados)<br> - Identificar Boca (Aberta, Sorriso, Normal)<br> - Identificar Ângulo do Rosto<br> - Identificar Diferença entre Biometrias"
+    },
+    {
+      "iconeEmpresa": "src/assets/sections/S4_Certificados/empresas/rocketseat.jpeg",
+      "nomeCertificado": "Trilha Conectar Fundamentos da Programação",
+      "nomeEmpresa": "Rocketseat",
+      "anoEmitido": "2024",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/victor-hugo-pinho/details/certifications/1738792627493/single-media-viewer?type=DOCUMENT&profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BbbQoQzVQTTC3XDIcDYkvAQ%3D%3D"
+      },
+      "fotoCertificado": "src/assets/sections/S4_Certificados/certificados/trilhaConectarFundamentosDaProgramacao.png",
+      "conteudoCertificado": "- Fundamentos de programação <br> - Computador, Software e Hardware<br> - Internet, Roteadores e Servidores<br> - Sistemas Operacionais<br> - Linguagem de Programação<br> - Tipos de Aplicações WEB"
+    }
+  ]
+}
