@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import dados from "../../db/S1_Sobre/db.json";
+import dados from "../../db/S1_Sobre/db.js";
 
 function S1_Sobre({ isDark }) {
     const [textoExibido, setTextoExibido] = useState("");
