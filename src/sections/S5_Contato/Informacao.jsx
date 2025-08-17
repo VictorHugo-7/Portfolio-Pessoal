@@ -8,7 +8,7 @@ function Informacao() {
                     key={index}
                     data-aos="fade-up"
                     data-aos-delay={index * 100}
-                    className="p-3 flex bg-[color:var(--color-secondary)]/30 rounded-md gap-5 transition-transform duration-300 hover:-translate-y-[3px] cursor-default"
+                    className="p-3 flex bg-[color:var(--color-secondary)]/30 rounded-md gap-5"
                 >
                     <img className="w-[30px]" src={contato.icone} />
                     <div className="space-y-1">

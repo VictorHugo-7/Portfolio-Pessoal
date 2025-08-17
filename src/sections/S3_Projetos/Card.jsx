@@ -9,7 +9,7 @@ function Card({ projeto, delay }) {
         <div
             data-aos="fade-up"
             data-aos-delay={delay}
-            className="flex flex-col justify-between bg-[var(--color-background)] text-[var(--color-primary)] border-[1.5px] border-[var(--color-secondary)] rounded-md transition-transform duration-300 hover:-translate-y-[3px] cursor-default"
+            className="flex flex-col justify-between bg-[var(--color-background)] text-[var(--color-primary)] border-[1.5px] border-[var(--color-secondary)] rounded-md"
         >
             {/* Conteúdo */}
             <div className="p-4">
