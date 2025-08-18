@@ -10,11 +10,11 @@ const dados = {
       titulo: "Portfólio | Pessoal",
       ano: "2025",
       descricao: "O portfólio apresenta informações sobre mim, minhas habilidades, projetos, certificados e formas de contato.",
-      tecnologias: ["React", "Tailwind", "Vite", "Node.js", "Figma"],
+      tecnologias: ["React", "Tailwind", "Vite", "Node.js", "JavaScript", "Figma"],
       links: {
         linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/details/projects/",
         github: "https://github.com/VictorHugo-7/Portfolio-Pessoal",
-        figma: "https://www.figma.com/design/22DFHV6hD1hQMxYAlNjr0S/Portfolio-Pessoal?t=5KAcwSvzdnTQoeoP-1"
+        figma: "https://www.figma.com/design/22DFHV6hD1hQMxYAlNjr0S/Portfolio-Pessoal?node-id=0-1&p=f"
       },
       status: "Concluído"
     },
@@ -27,7 +27,7 @@ const dados = {
       links: {
         linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/details/projects/",
         github: "https://github.com/VictorHugo-7/S3-Site-MauaEsports",
-        figma: "https://www.figma.com/design/LuwuqQ4VbyyILJQK0vf7Oo/S3-Site-MauaEsports?t=5KAcwSvzdnTQoeoP-1"
+        figma: "https://www.figma.com/design/LuwuqQ4VbyyILJQK0vf7Oo/S3-Site-MauaEsports?node-id=0-1&p=f"
       },
       status: "Concluído"
     },
