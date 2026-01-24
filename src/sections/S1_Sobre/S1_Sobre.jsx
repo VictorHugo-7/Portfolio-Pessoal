@@ -43,7 +43,7 @@ function S1_Sobre({ isDark }) {
     return (
         <div className="px-6 lg:px-12 flex flex-col lg:flex-row items-center gap-14 lg:gap-20">
             <div
-                className={`transform transition-all duration-1000 ease-out ${mostrarSecaoTexto ? "translate-x-0 opacity-100" : "-translate-x-10 opacity-0"
+                className={`flex-1 transform transition-all duration-1000 ease-out ${mostrarSecaoTexto ? "translate-x-0 opacity-100" : "-translate-x-10 opacity-0"
                     }`}
             >
                 <h3 className="text-2xl lg:text-3xl text-[var(--color-primary)]">{titulo1}</h3>
@@ -82,12 +82,35 @@ function S1_Sobre({ isDark }) {
                 </div>
             </div>
 
-            <img
-                src={imagem}
-                alt="Foto Victor"
-                className={`h-[240px] lg:h-[380px] transform transition-all duration-1000 ease-out rounded-2xl shadow-[0_0_20px_0_rgba(59,130,246,0.5)] hover:scale-102 ${mostrarImagem ? "translate-x-0 opacity-100" : "translate-x-10 opacity-0"
-                    }`}
-            />
+            <div 
+                className={`relative flex overflow-hidden rounded-2xl shadow-[0_0_20px_0_rgba(59,130,246,0.5)] transform transition-all duration-1000 ease-out hover:scale-102 ${
+                    mostrarImagem ? "translate-x-0 opacity-100" : "translate-x-10 opacity-0"
+                }`}
+            >
+                <style>
+                    {`
+                    @keyframes shimmer {
+                        0% { transform: translateX(-100%); }
+                        100% { transform: translateX(100%); }
+                    }
+                    `}
+                </style>
+
+                <div 
+                    className="absolute inset-0 z-10 pointer-events-none"
+                    style={{
+                        background: 'linear-gradient(90deg, transparent, var(--color-highlight, #00BCFF), transparent)',
+                        opacity: 0.2, 
+                        animation: 'shimmer 4s infinite linear',
+                    }}
+                />
+
+                <img
+                    src={imagem}
+                    alt="Foto Victor"
+                    className="block h-[240px] lg:h-[380px] w-auto object-contain relative z-0"
+                />
+            </div>
         </div>
     );
 }

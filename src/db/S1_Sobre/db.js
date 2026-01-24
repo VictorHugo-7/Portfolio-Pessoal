@@ -11,7 +11,7 @@ const dados = {
     titulo1: "Olá, sou o",
     titulo2: "Victor Hugo Pinho",
     subtitulo: "Desenvolvedor Full-Stack",
-    descricao1: "Estudante do 4º semestre de Ciências da Computação no Instituto Mauá de Tecnologia, com perfil proativo, organizado e com foco em desenvolvimento e soluções inovadoras. Busco constantemente me atualizar e aplicar conhecimentos para resolver problemas reais de forma eficiente.",
+    descricao1: "Estudante do 5º semestre de Ciências da Computação no Instituto Mauá de Tecnologia, com perfil proativo e organizado. Busco constantemente me atualizar e aplicar conhecimentos para resolver problemas reais de forma eficiente.",
     descricao2: "Minha jornada acadêmica é marcada por determinação, esforço e organização nos meus estudos. Encontro-me sempre disposto a aprender assuntos novos e trabalhar em equipe.",
     botoes: [
       {
