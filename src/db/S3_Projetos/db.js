@@ -9,6 +9,19 @@ import imagemSid from '../../assets/sections/S3_Projetos/images/sid.png';
 const dados = {
   projetos: [
     {
+      imagem: imagemFisioFit,
+      titulo: "Sistema | FisioFit",
+      ano: "2026",
+      descricao: "O sistema consiste em um mecanismo de lembretes que incentiva a prática de exercícios físicos e o cuidado com a saúde mental, promovendo hábitos saudáveis por meio de notificações periódicas e personalizadas.",
+      tecnologias: ["React", "Tailwind CSS", "Vite", "Node.js", "MongoDB", "Figma"],
+      links: {
+        linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/details/projects/",
+        github: "https://github.com/VictorHugo-7/Hackathon-Sistema-FisioFit",
+        figma: "https://www.figma.com/design/xuVpanGxgkrNNxsRLi7Iqj/Hackathon-Sistema-FisioFit?node-id=2-2&t=yAbqZzgEM8IxewNx-1"
+      },
+      status: "Concluído"
+    },
+    {
       imagem: imagemGenoWeb,
       titulo: "Sistema | GenoWeb",
       ano: "2025",
@@ -18,19 +31,6 @@ const dados = {
         linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/details/projects/",
         github: "https://github.com/VictorHugo-7/Hackathon-Sistema-GenoWeb",
         figma: "https://www.figma.com/design/dmEOyAwkEgluPLzzdCh2AT/Hackathon-Sistema-GenoWeb?node-id=2-2&t=LPylzjyRKCfCaVjC-1"
-      },
-      status: "Concluído"
-    },
-    {
-      imagem: imagemFisioFit,
-      titulo: "Sistema | FisioFit",
-      ano: "2025",
-      descricao: "O sistema consiste em um mecanismo de lembretes que incentiva a prática de exercícios físicos e o cuidado com a saúde mental, promovendo hábitos saudáveis por meio de notificações periódicas e personalizadas.",
-      tecnologias: ["React", "Tailwind CSS", "Vite", "Node.js", "MongoDB", "Figma"],
-      links: {
-        linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/details/projects/",
-        github: "https://github.com/VictorHugo-7/Hackathon-Sistema-FisioFit",
-        figma: "https://www.figma.com/design/xuVpanGxgkrNNxsRLi7Iqj/Hackathon-Sistema-FisioFit?node-id=2-2&t=yAbqZzgEM8IxewNx-1"
       },
       status: "Concluído"
     },
