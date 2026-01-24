@@ -29,6 +29,14 @@ function NavBar({ isDark, setIsDark }) {
         const detectarSecaoAtiva = () => {
             const secoes = ['sobre', 'habilidades', 'experiencias', 'projetos', 'certificados', 'contato'];
             const scrollPos = window.scrollY + 150;
+            const alturaTotal = document.documentElement.scrollHeight;
+            const alturaVisivel = window.innerHeight;
+            const scrollAtual = window.scrollY;
+            
+            if (scrollAtual + alturaVisivel >= alturaTotal - 50) {
+                setSecaoAtiva('contato');
+                return;
+            }
 
             for (const secao of secoes) {
                 const elemento = document.getElementById(secao);
