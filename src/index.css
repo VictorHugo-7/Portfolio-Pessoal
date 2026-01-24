@@ -24,3 +24,8 @@
     --color-primary: #EAECF0;
     --color-secondary: #283139;
 }
+
+/* Barra de Scroll */
+body::-webkit-scrollbar       { width: 4px; }
+body::-webkit-scrollbar-track { background: transparent; }
+body::-webkit-scrollbar-thumb { background: var(--color-highlight); border-radius: 10px;}
