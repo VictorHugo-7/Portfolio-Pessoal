@@ -1,3 +1,6 @@
+import imagemGenoWeb from '../../assets/sections/S3_Projetos/images/genoWeb.png';
+import imagemProfessores from '../../assets/sections/S3_Projetos/images/professores.png';
+import imagemFisioFit from '../../assets/sections/S3_Projetos/images/fisioFit.png';
 import imagemPortfolio from '../../assets/sections/S3_Projetos/images/portfolio.png';
 import imagemMauaEsports from '../../assets/sections/S3_Projetos/images/mauaEsports.png';
 import imagemUsinaEcoCultural from '../../assets/sections/S3_Projetos/images/usinaEcoCultural.png';
@@ -5,6 +8,45 @@ import imagemSid from '../../assets/sections/S3_Projetos/images/sid.png';
 
 const dados = {
   projetos: [
+    {
+      imagem: imagemGenoWeb,
+      titulo: "Sistema | GenoWeb",
+      ano: "2025",
+      descricao: "O sistema consiste em um genograma digital voltado ao cruzamento de dados genéticos familiares, com foco em agilizar o diagnóstico de padrões hereditários e auxiliar na prevenção de doenças genéticas. 🏆 Projeto vencedor do 1º lugar no Hackathon.",
+      tecnologias: ["React", "Tailwind CSS", "Vite", "MySQL", "Python", "Figma"],
+      links: {
+        linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/details/projects/",
+        github: "https://github.com/VictorHugo-7/Hackathon-Sistema-GenoWeb",
+        figma: "https://www.figma.com/design/dmEOyAwkEgluPLzzdCh2AT/Hackathon-Sistema-GenoWeb?node-id=2-2&t=LPylzjyRKCfCaVjC-1"
+      },
+      status: "Concluído"
+    },
+    {
+      imagem: imagemFisioFit,
+      titulo: "Sistema | FisioFit",
+      ano: "2025",
+      descricao: "O sistema consiste em um mecanismo de lembretes que incentiva a prática de exercícios físicos e o cuidado com a saúde mental, promovendo hábitos saudáveis por meio de notificações periódicas e personalizadas.",
+      tecnologias: ["React", "Tailwind CSS", "Vite", "Node.js", "MongoDB", "Figma"],
+      links: {
+        linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/details/projects/",
+        github: "https://github.com/VictorHugo-7/Hackathon-Sistema-FisioFit",
+        figma: "https://www.figma.com/design/xuVpanGxgkrNNxsRLi7Iqj/Hackathon-Sistema-FisioFit?node-id=2-2&t=yAbqZzgEM8IxewNx-1"
+      },
+      status: "Concluído"
+    },
+    {
+      imagem: imagemProfessores,
+      titulo: "Sistema | Professores",
+      ano: "2025",
+      descricao: "O sistema consiste em centralizar e facilitar a gestão escolar, permitindo que professores gerenciem disciplinas, notas, calendário e notificações, enquanto os alunos acessam para consultar e realizar ações em suas atividades acadêmicas.",
+      tecnologias: ["Dart", "Flutter", "Node.js", "MongoDB", "Azure", "Figma"],
+      links: {
+        linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/details/projects/",
+        github: "https://github.com/VictorHugo-7/S4-Sistema-Professores",
+        figma: "https://www.figma.com/design/A38hkySKBNvDWGq5ktC5ja/S4-Sistema-Professores?node-id=1780-4&t=HvTRYiFBOmca62RD-1"
+      },
+      status: "Concluído"
+    },
     {
       imagem: imagemPortfolio,
       titulo: "Portfólio | Pessoal",
