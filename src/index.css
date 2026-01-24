@@ -25,7 +25,11 @@
     --color-secondary: #283139;
 }
 
-/* Barra de Scroll */
-body::-webkit-scrollbar       { width: 4px; }
-body::-webkit-scrollbar-track { background: transparent; }
-body::-webkit-scrollbar-thumb { background: var(--color-highlight); border-radius: 10px;}
+/* Barra Scroll*/
+* { scrollbar-width: thin; scrollbar-color: var(--color-highlight) transparent; }
+html::-webkit-scrollbar,       body::-webkit-scrollbar,       *::-webkit-scrollbar       { width: 4px;}
+html::-webkit-scrollbar-track, body::-webkit-scrollbar-track, *::-webkit-scrollbar-track { background: transparent; }
+html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb, *::-webkit-scrollbar-thumb { background: var(--color-highlight); border-radius: 10px;}
+
+
+
