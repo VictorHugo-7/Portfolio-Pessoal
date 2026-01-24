@@ -13,7 +13,7 @@ function Icon({ habilidade, isDark, delay = 0 }) {
                 <img
                     src={iconeAtual}
                     alt={habilidade.nome}
-                    className="h-[34px]"
+                    className="h-[40px]"
                 />
                 <span className="text-[var(--color-primary)] text-[10px]">
                     {habilidade.nome}

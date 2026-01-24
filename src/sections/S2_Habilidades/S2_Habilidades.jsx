@@ -1,18 +1,15 @@
 import { useEffect } from "react";
-// ALTERAÇÃO 1: Importando do novo arquivo .js
 import dados from "../../db/S2_Habilidades/db.js";
 import Icon from "./Icon";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function S2_Habilidades({ isDark }) {
-    const grupoTamanho = 8;
+    const grupoTamanho = 11;
     const habilidadesEmGrupos = [];
 
-    // ALTERAÇÃO 2: Corrigido de 'dados.tecnologias' para 'dados.habilidades' para corresponder ao seu arquivo de dados.
-    for (let i = 0; i < dados.habilidades.length; i += grupoTamanho) {
+    for (let i = 0; i < dados.habilidades.length; i += grupoTamanho) 
         habilidadesEmGrupos.push(dados.habilidades.slice(i, i + grupoTamanho));
-    }
 
     useEffect(() => {
         AOS.init({
