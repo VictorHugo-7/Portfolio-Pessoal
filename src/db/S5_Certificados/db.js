@@ -1,10 +1,10 @@
-import iconeSaoCamilo from '../../assets/sections/S4_Certificados/empresas/saoCamilo.jpg';
-import iconeImt from '../../assets/sections/S4_Certificados/empresas/imt.jpeg';
-import iconeMicrosoft from '../../assets/sections/S4_Certificados/empresas/microsoft.jpeg';
-import iconeCredly from '../../assets/sections/S4_Certificados/empresas/credly.jpeg';
-import iconeEven3 from '../../assets/sections/S4_Certificados/empresas/even3.jpeg';
-import iconeOracle from '../../assets/sections/S4_Certificados/empresas/oracle.jpeg';
-import iconeRocketseat from '../../assets/sections/S4_Certificados/empresas/rocketseat.jpeg';
+import iconeSaoCamilo from '../../assets/sections/S5_Certificados/empresas/saoCamilo.jpg';
+import iconeImt from '../../assets/sections/S5_Certificados/empresas/imt.jpeg';
+import iconeMicrosoft from '../../assets/sections/S5_Certificados/empresas/microsoft.jpeg';
+import iconeCredly from '../../assets/sections/S5_Certificados/empresas/credly.jpeg';
+import iconeEven3 from '../../assets/sections/S5_Certificados/empresas/even3.jpeg';
+import iconeOracle from '../../assets/sections/S5_Certificados/empresas/oracle.jpeg';
+import iconeRocketseat from '../../assets/sections/S5_Certificados/empresas/rocketseat.jpeg';
 
 const dados = {
   certificados: [

@@ -27,7 +27,7 @@ function NavBar({ isDark, setIsDark }) {
 
     useEffect(() => {
         const detectarSecaoAtiva = () => {
-            const secoes = ['sobre', 'habilidades', 'projetos', 'certificados', 'contato'];
+            const secoes = ['sobre', 'habilidades', 'experiencias', 'projetos', 'certificados', 'contato'];
             const scrollPos = window.scrollY + 150;
 
             for (const secao of secoes) {
@@ -67,6 +67,7 @@ function NavBar({ isDark, setIsDark }) {
                 <ul className="flex items-center gap-10">
                     <li><a href="#sobre" onClick={(e) => navegarParaSecao(e, 'sobre')} className={obterClassesLink('sobre')}>Sobre</a></li>
                     <li><a href="#habilidades" onClick={(e) => navegarParaSecao(e, 'habilidades')} className={obterClassesLink('habilidades')}>Habilidades</a></li>
+                    <li><a href="#experiencias" onClick={(e) => navegarParaSecao(e, 'experiencias')} className={obterClassesLink('experiencias')}>Experiências</a></li>
                     <li><a href="#projetos" onClick={(e) => navegarParaSecao(e, 'projetos')} className={obterClassesLink('projetos')}>Projetos</a></li>
                     <li><a href="#certificados" onClick={(e) => navegarParaSecao(e, 'certificados')} className={obterClassesLink('certificados')}>Certificados</a></li>
                     <li><a href="#contato" onClick={(e) => navegarParaSecao(e, 'contato')} className={obterClassesLink('contato')}>Contato</a></li>
@@ -99,6 +100,7 @@ function NavBar({ isDark, setIsDark }) {
                 <div className="absolute top-12 left-0 w-full flex flex-col items-center gap-6 py-2 bg-[var(--color-background)] text-[var(--color-primary)] border-b border-[var(--color-secondary)] md:hidden z-40">
                     <a href="#sobre" onClick={(e) => navegarParaSecao(e, 'sobre')} className={obterClassesLink('sobre')}>Sobre</a>
                     <a href="#habilidades" onClick={(e) => navegarParaSecao(e, 'habilidades')} className={obterClassesLink('habilidades')}>Habilidades</a>
+                    <a href="#experiencias" onClick={(e) => navegarParaSecao(e, 'experiencias')} className={obterClassesLink('experiencias')}>Experiências</a>
                     <a href="#projetos" onClick={(e) => navegarParaSecao(e, 'projetos')} className={obterClassesLink('projetos')}>Projetos</a>
                     <a href="#certificados" onClick={(e) => navegarParaSecao(e, 'certificados')} className={obterClassesLink('certificados')}>Certificados</a>
                     <a href="#contato" onClick={(e) => navegarParaSecao(e, 'contato')} className={obterClassesLink('contato')}>Contato</a>

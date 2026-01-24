@@ -1,7 +1,7 @@
-import iconeEmail from '../../assets/sections/S5_Contato/icons/email.svg';
-import iconeLinkedIn from '../../assets/sections/S5_Contato/icons/linkedIn.svg';
-import iconeGithub from '../../assets/sections/S5_Contato/icons/github.svg';
-import iconeLocation from '../../assets/sections/S5_Contato/icons/location.svg';
+import iconeEmail from '../../assets/sections/S6_Contato/icons/email.svg';
+import iconeLinkedIn from '../../assets/sections/S6_Contato/icons/linkedIn.svg';
+import iconeGithub from '../../assets/sections/S6_Contato/icons/github.svg';
+import iconeLocation from '../../assets/sections/S6_Contato/icons/location.svg';
 
 const dados = {
   contato: [

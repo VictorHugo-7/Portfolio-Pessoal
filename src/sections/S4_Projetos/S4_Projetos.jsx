@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import Card from "./Card";
-import dados from "../../db/S3_Projetos/db.js";
+import Card from "./Card.jsx";
+import dados from "../../db/S4_Projetos/db.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

@@ -1,10 +1,10 @@
 import { useEffect } from "react";
-import Card from "./Card";
-import dados from "../../db/S4_Certificados/db.js";
+import Card from "./Card.jsx";
+import dados from "../../db/S3_Experiencias/db.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function S4_Certificados() {
+function S3_Experiencias() {
     useEffect(() => {
         AOS.init({
             duration: 1500,
@@ -21,20 +21,15 @@ function S4_Certificados() {
                            after:absolute after:block after:bg-[var(--color-highlight)] after:content-[''] 
                            after:rounded-full after:w-8 after:h-1 after:mt-1 after:left-0"
             >
-                Certificados
+                Experiências
             </h5>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {dados.certificados.map((certificado, index) => (
-                    <Card
-                        key={index}
-                        certificado={certificado}
-                        delay={index * 100}
-                    />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {dados.experiencias.map((experiencia, index) => (
+                    <Card key={index} experiencia={experiencia} delay={index * 100} />
                 ))}
             </div>
         </div>
     );
 }
 
-export default S4_Certificados;
+export default S3_Experiencias;

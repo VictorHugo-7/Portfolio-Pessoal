@@ -1,10 +1,10 @@
-import imagemGenoWeb from '../../assets/sections/S3_Projetos/images/genoWeb.png';
-import imagemProfessores from '../../assets/sections/S3_Projetos/images/professores.png';
-import imagemFisioFit from '../../assets/sections/S3_Projetos/images/fisioFit.png';
-import imagemPortfolio from '../../assets/sections/S3_Projetos/images/portfolio.png';
-import imagemMauaEsports from '../../assets/sections/S3_Projetos/images/mauaEsports.png';
-import imagemUsinaEcoCultural from '../../assets/sections/S3_Projetos/images/usinaEcoCultural.png';
-import imagemSid from '../../assets/sections/S3_Projetos/images/sid.png';
+import imagemGenoWeb from '../../assets/sections/S4_Projetos/images/genoWeb.png';
+import imagemProfessores from '../../assets/sections/S4_Projetos/images/professores.png';
+import imagemFisioFit from '../../assets/sections/S4_Projetos/images/fisioFit.png';
+import imagemPortfolio from '../../assets/sections/S4_Projetos/images/portfolio.png';
+import imagemMauaEsports from '../../assets/sections/S4_Projetos/images/mauaEsports.png';
+import imagemUsinaEcoCultural from '../../assets/sections/S4_Projetos/images/usinaEcoCultural.png';
+import imagemSid from '../../assets/sections/S4_Projetos/images/sid.png';
 
 const dados = {
   projetos: [

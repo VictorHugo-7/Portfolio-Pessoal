@@ -1,8 +1,7 @@
 import { FaCheckCircle, FaSyncAlt } from "react-icons/fa";
-import linkedin from '../../assets/sections/S3_Projetos/icons/linkedin.svg'
-import github from '../../assets/sections/S3_Projetos/icons/github.svg'
-import figma from '../../assets/sections/S3_Projetos/icons/figma.svg'
-
+import linkedin from '../../assets/sections/S4_Projetos/icons/linkedin.svg'
+import github from '../../assets/sections/S4_Projetos/icons/github.svg'
+import figma from '../../assets/sections/S4_Projetos/icons/figma.svg'
 
 function Card({ projeto, delay }) {
     return (
