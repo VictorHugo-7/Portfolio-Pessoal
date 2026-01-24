@@ -85,7 +85,12 @@ function S1_Sobre({ isDark }) {
             <img
                 src={imagem}
                 alt="Foto Victor"
-                className={`h-[240px] lg:h-[380px] transform transition-all duration-1000 ease-out rounded-2xl shadow-[0_0_20px_0_rgba(59,130,246,0.5)] hover:scale-102 
+                className={`
+                    h-[240px] lg:h-[380px] rounded-2xl 
+                    transform transition-all duration-1000 ease-out
+                    [filter:drop-shadow(0_0_15px_rgba(59,130,246,0.1))_drop-shadow(0_0_45px_rgba(59,130,246,0.1))]
+                    hover:scale-101 
+                    hover:[filter:drop-shadow(0_0_20px_rgba(59,130,246,0.15))_drop-shadow(0_0_60px_rgba(59,130,246,0.15))]
                     ${mostrarImagem ? "translate-x-0 opacity-100" : "translate-x-10 opacity-0"}`}
             />
         </div>

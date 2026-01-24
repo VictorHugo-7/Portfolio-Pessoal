@@ -4,7 +4,7 @@ import linkedinDark from '../../assets/sections/S1_Sobre/dark/linkedin.svg';
 import linkedinLight from '../../assets/sections/S1_Sobre/light/linkedin.svg';
 import githubDark from '../../assets/sections/S1_Sobre/dark/github.svg';
 import githubLight from '../../assets/sections/S1_Sobre/light/github.svg';
-import imagemVictor from '../../assets/sections/S1_Sobre/victor.svg';
+import imagemVictor from '../../assets/sections/S1_Sobre/victor.png';
 
 const dados = {
   sobre: {
