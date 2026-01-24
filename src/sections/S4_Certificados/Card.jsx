@@ -7,6 +7,7 @@ function Card({ certificado, delay }) {
         >
             {/* Conteúdo */}
             <div className="p-4">
+                
                 {/* Empresa */}
                 <div className="flex items-center justify-center">
                     <img
@@ -32,6 +33,7 @@ function Card({ certificado, delay }) {
 
             {/* Rodapé */}
             <div className="p-4 py-2 flex justify-end items-center border-t-[1.5px] border-[var(--color-secondary)]">
+                
                 {/* Botão para abrir o LinkedIn */}
                 {certificado.links?.linkedin && (
                     <a

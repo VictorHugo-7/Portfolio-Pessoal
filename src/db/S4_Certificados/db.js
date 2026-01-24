@@ -1,3 +1,4 @@
+import iconeSaoCamilo from '../../assets/sections/S4_Certificados/empresas/saoCamilo.jpg';
 import iconeImt from '../../assets/sections/S4_Certificados/empresas/imt.jpeg';
 import iconeMicrosoft from '../../assets/sections/S4_Certificados/empresas/microsoft.jpeg';
 import iconeCredly from '../../assets/sections/S4_Certificados/empresas/credly.jpeg';
@@ -7,6 +8,42 @@ import iconeRocketseat from '../../assets/sections/S4_Certificados/empresas/rock
 
 const dados = {
   certificados: [
+      {
+      iconeEmpresa: iconeImt,
+      nomeCertificado: "Fundamentos de Computação em Nuvem - AWS Academy",
+      nomeEmpresa: "Instituto Mauá de Tecnologia",
+      anoEmitido: "2026",
+      links: {
+        linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/overlay/Certifications/1891811422/treasury/?profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg"
+      }
+    },
+    {
+      iconeEmpresa: iconeImt,
+      nomeCertificado: "Você S/A - Investindo seu Dinheiro",
+      nomeEmpresa: "Instituto Mauá de Tecnologia",
+      anoEmitido: "2026",
+      links: {
+        linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/overlay/Certifications/1892291287/treasury/?profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg"
+      }
+    },
+    {
+      iconeEmpresa: iconeSaoCamilo,
+      nomeCertificado: "1º Lugar no 2º Hackathon em Saúde",
+      nomeEmpresa: "Centro Universitário São Camilo",
+      anoEmitido: "2025",
+      links: {
+        linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/overlay/Certifications/1892632754/treasury/?profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg"
+      }
+    },
+    {
+      iconeEmpresa: iconeCredly,
+      nomeCertificado: "AWS Academy Graduate - Cloud Foundations",
+      nomeEmpresa: "Credly",
+      anoEmitido: "2025",
+      links: {
+        linkedin: "https://www.linkedin.com/in/victor-hugo-pinho/overlay/Certifications/1892566328/treasury/?profileId=ACoAAE7aR1MBterI0_N7hJrOouWG1xq720kPbUg"
+      }
+    },
     {
       iconeEmpresa: iconeImt,
       nomeCertificado: "A Bolsa de Valores no Brasil e Seus Ativos Financeiros",
