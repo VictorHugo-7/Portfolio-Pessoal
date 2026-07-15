@@ -73,12 +73,10 @@ function NavBar({ isDark, setIsDark }) {
         <div className="z-50 py-2.5 fixed w-full flex justify-center bg-[var(--color-background)] border-b-2 border-[var(--color-secondary)] text-[var(--color-primary)]">
             <div className="w-full max-w-[1400px] px-6 lg:px-12 flex justify-between items-center">
 
-                {/* Logo */}
                 <a href="#sobre" onClick={(e) => navegarParaSecao(e, 'sobre')}>
                     <img src={!isDark ? logo_light : logo_dark} alt="Logo" className="h-[20px] lg:h-[20px]" />
                 </a>
 
-                {/* Menu Desktop */}
                 <div className="hidden lg:flex gap-6 items-center">
                     <ul className="flex items-center gap-6 text-sm">
                         <li><a href="#sobre" onClick={(e) => navegarParaSecao(e, 'sobre')} className={obterClassesLink('sobre')}>Sobre</a></li>
@@ -99,7 +97,6 @@ function NavBar({ isDark, setIsDark }) {
                     </button>
                 </div>
 
-                {/* Menu Mobile */}
                 <div className="lg:hidden flex items-center gap-6">
                     <button onClick={alternarModoEscuro} className="cursor-pointer">
                         {isDark
@@ -112,17 +109,18 @@ function NavBar({ isDark, setIsDark }) {
                 </div>
             </div>
 
-            {/* Dropdown Mobile */}
-            {menuAberto && (
-                <div className="absolute top-12 left-0 w-full flex flex-col items-center gap-6 py-2 bg-[var(--color-background)] text-[var(--color-primary)] border-b border-[var(--color-secondary)] md:hidden z-40">
-                    <a href="#sobre" onClick={(e) => navegarParaSecao(e, 'sobre')} className={obterClassesLink('sobre')}>Sobre</a>
-                    <a href="#competencias" onClick={(e) => navegarParaSecao(e, 'competencias')} className={obterClassesLink('competencias')}>Competências</a>
-                    <a href="#experiencias" onClick={(e) => navegarParaSecao(e, 'experiencias')} className={obterClassesLink('experiencias')}>Experiências</a>
-                    <a href="#projetos" onClick={(e) => navegarParaSecao(e, 'projetos')} className={obterClassesLink('projetos')}>Projetos</a>
-                    <a href="#certificados" onClick={(e) => navegarParaSecao(e, 'certificados')} className={obterClassesLink('certificados')}>Certificados</a>
-                    <a href="#contato" onClick={(e) => navegarParaSecao(e, 'contato')} className={obterClassesLink('contato')}>Contato</a>
-                </div>
-            )}
+            <div
+                className={`absolute top-12 left-0 w-full flex flex-col items-center gap-6 bg-[var(--color-background)] text-[var(--color-primary)] border-b border-[var(--color-secondary)] lg:hidden z-40 overflow-hidden transition-all duration-300 ease-in-out ${
+                    menuAberto ? 'max-h-96 opacity-100 py-4' : 'max-h-0 opacity-0 py-0 pointer-events-none'
+                }`}
+            >
+                <a href="#sobre" onClick={(e) => navegarParaSecao(e, 'sobre')} className={obterClassesLink('sobre')}>Sobre</a>
+                <a href="#competencias" onClick={(e) => navegarParaSecao(e, 'competencias')} className={obterClassesLink('competencias')}>Competências</a>
+                <a href="#experiencias" onClick={(e) => navegarParaSecao(e, 'experiencias')} className={obterClassesLink('experiencias')}>Experiências</a>
+                <a href="#projetos" onClick={(e) => navegarParaSecao(e, 'projetos')} className={obterClassesLink('projetos')}>Projetos</a>
+                <a href="#certificados" onClick={(e) => navegarParaSecao(e, 'certificados')} className={obterClassesLink('certificados')}>Certificados</a>
+                <a href="#contato" onClick={(e) => navegarParaSecao(e, 'contato')} className={obterClassesLink('contato')}>Contato</a>
+            </div>
         </div>
     );
 }
