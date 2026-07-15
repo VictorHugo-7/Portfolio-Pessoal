@@ -14,7 +14,7 @@ function Footer() {
     };
 
     return (
-        <div className="min-h-[50.67px] flex justify-center text-xs lg:text-[14px] bg-[var(--color-black)] text-[var(--color-gray)]">
+        <div className="min-h-[80px] flex justify-center text-xs lg:text-[14px] bg-[var(--color-black)] text-[var(--color-gray)]">
             <div className="w-full max-w-[1400px] px-6 lg:px-12 py-3 sm:py-0 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-6 text-center">
                 <span>© 2026 Todos Direitos Reservados Victor Hugo Pinho</span>
 
