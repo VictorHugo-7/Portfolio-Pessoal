@@ -4,7 +4,7 @@ import dados from "../../db/S3_Experiencias/db.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function S3_Experiencias() {
+function S3_Experiencias({ isDark }) {
     useEffect(() => {
         AOS.init({
             duration: 1500,
@@ -23,9 +23,14 @@ function S3_Experiencias() {
             >
                 Experiências
             </h5>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                 {dados.experiencias.map((experiencia, index) => (
-                    <Card key={index} experiencia={experiencia} delay={index * 100} />
+                    <Card
+                        key={index}
+                        experiencia={experiencia}
+                        isDark={isDark}
+                        delay={index * 100}
+                    />
                 ))}
             </div>
         </div>

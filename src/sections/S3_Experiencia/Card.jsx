@@ -1,6 +1,8 @@
 import { FaCalendarAlt } from "react-icons/fa";
 
-function Card({ experiencia, delay }) {
+function Card({ experiencia, isDark, delay }) {
+    const iconeAtual = isDark ? experiencia.iconeDark : experiencia.iconeLight;
+
     return (
         <div
             data-aos="fade-up"
@@ -16,14 +18,14 @@ function Card({ experiencia, delay }) {
                 {/* Cabeçalho com empresa e ano */}
                 <div className="flex justify-between items-start mb-3">
 
-                    <div className="flex items-center gap-1 flex-1">
+                    <div className="flex items-center gap-2 flex-1">
 
                         {/* Ícone da empresa */}
-                        {experiencia.iconeEmpresa && (
+                        {iconeAtual && (
                             <img 
-                                src={experiencia.iconeEmpresa} 
+                                src={iconeAtual} 
                                 alt={experiencia.nomeEmpresa} 
-                                className="h-[30px]"
+                                className="h-4 w-4"
                             />
                         )}
                         <h5 className="text-[14px] font-bold text-[var(--color-primary)]">
@@ -51,11 +53,11 @@ function Card({ experiencia, delay }) {
                 </p>
 
                 {/* Tecnologias */}
-                <div className="mb-1 grid grid-cols-4 gap-x-[10px] gap-y-[10px]">
+                <div className="mb-1 flex flex-wrap gap-2">
                     {experiencia.tecnologias.map((tec, i) => (
                         <span
                             key={i}
-                            className="w-full text-center py-[4px] bg-[var(--color-secondary)] text-[7px] text-[var(--color-primary)] rounded-md"
+                            className="px-3 py-1 bg-[var(--color-secondary)] text-[7px] text-[var(--color-primary)] rounded-md whitespace-nowrap"
                         >
                             {tec}
                         </span>
