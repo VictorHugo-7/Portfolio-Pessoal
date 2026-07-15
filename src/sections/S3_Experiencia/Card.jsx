@@ -9,18 +9,14 @@ function Card({ experiencia, isDark, delay }) {
             data-aos-delay={delay}
             className="relative flex flex-col bg-[var(--color-background)] text-[var(--color-primary)] border-[1.5px] border-[var(--color-secondary)] rounded-md"
         >
-            {/* Barra lateral de destaque */}
             <div className="absolute top-0 left-0 w-1 h-full bg-[var(--color-highlight)] rounded-l-md"></div>
 
-            {/* Conteúdo */}
             <div className="p-6 flex-1">
 
-                {/* Cabeçalho com empresa e ano */}
                 <div className="flex justify-between items-start mb-3">
 
                     <div className="flex items-center gap-2 flex-1">
 
-                        {/* Ícone da empresa */}
                         {iconeAtual && (
                             <img 
                                 src={iconeAtual} 
@@ -33,7 +29,6 @@ function Card({ experiencia, isDark, delay }) {
                         </h5>
                     </div>
 
-                    {/* Período */}
                     <div className="flex items-center gap-1.5 bg-[var(--color-secondary)] px-3 py-1.5 rounded-md">
                         <FaCalendarAlt className="text-[10px] text-[var(--color-primary)]" />
                         <span className="text-[8px] text-[var(--color-primary)]">
@@ -42,17 +37,14 @@ function Card({ experiencia, isDark, delay }) {
                     </div>
                 </div>
 
-                {/* Cargo */}
                 <h3 className="text-[12px] font-bold text-[var(--color-gray)] mb-3">
                     {experiencia.cargo}
                 </h3>
 
-                {/* Descrição */}
                 <p className="text-[12px] text-[var(--color-gray)] leading-relaxed mb-3">
                     {experiencia.descricao}
                 </p>
 
-                {/* Tecnologias */}
                 <div className="mb-1 flex flex-wrap gap-2">
                     {experiencia.tecnologias.map((tec, i) => (
                         <span
