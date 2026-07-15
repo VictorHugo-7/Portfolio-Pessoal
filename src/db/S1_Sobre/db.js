@@ -11,8 +11,9 @@ const dados = {
     titulo1: "Olá, sou o",
     titulo2: "Victor Hugo Pinho",
     subtitulo: "Desenvolvedor Full-Stack",
-    descricao1: "Estudante do 5º semestre de Ciências da Computação no Instituto Mauá de Tecnologia, com perfil proativo e organizado. Busco constantemente me atualizar e aplicar conhecimentos para resolver problemas reais de forma eficiente.",
-    descricao2: "Minha jornada acadêmica é marcada por determinação, esforço e organização nos meus estudos. Encontro-me sempre disposto a aprender assuntos novos e trabalhar em equipe.",
+    descricao1: "Estudante do 6º semestre de Ciências da Computação no Instituto Mauá de Tecnologia.",
+    descricao2: "Atuo no desenvolvimento full-stack utilizando C#, ASP.NET Web Forms e SQL Server, aplicando arquitetura em 3 camadas (Apresentação, Negócio e Dados) para organização, manutenção e escalabilidade do código.",
+    descricao3: "Busco constantemente me atualizar e aplicar conhecimentos para resolver problemas reais de forma eficiente, sempre disposto a aprender assuntos novos e trabalhar em equipe.",
     botoes: [
       {
         icone: "fa-solid fa-leaf",

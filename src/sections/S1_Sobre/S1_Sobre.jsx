@@ -10,7 +10,7 @@ function S1_Sobre({ isDark }) {
     const [mostrarImagem, setMostrarImagem] = useState(false);
     const [iniciarDigitacao, setIniciarDigitacao] = useState(false);
 
-    const { titulo1, titulo2, subtitulo, descricao1, descricao2, botoes, imagem } = dados.sobre;
+    const { titulo1, titulo2, subtitulo, descricao1, descricao2, descricao3, botoes, imagem } = dados.sobre;
 
     useEffect(() => {
         const timeoutTexto = setTimeout(() => setMostrarSecaoTexto(true), 300);
@@ -59,8 +59,11 @@ function S1_Sobre({ isDark }) {
                         |
                     </span>
                 </h3>
+
                 <p className="my-4 lg:my-3 text-[var(--color-gray)]">{descricao1}</p>
                 <p className="mb-6 lg:mb-4 text-[var(--color-gray)]">{descricao2}</p>
+                <p className="mb-6 lg:mb-4 text-[var(--color-gray)]">{descricao3}</p>
+                
 
                 <div className="flex justify-between lg:justify-start lg:gap-10">
                     {botoes.map((botao, index) => (
