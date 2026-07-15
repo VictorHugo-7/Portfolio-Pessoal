@@ -34,14 +34,14 @@
 │   ├── assets/
 │   │   ├── NavBar/
 │   │   ├── favicon/
-│   │   ├── sections/
-│   │   │   ├── S1_Sobre/
-│   │   │   ├── S2_Habilidades/
-│   │   │   ├── S3_Projetos/
-│   │   │   ├── S4_Certificados/
-│   │   │   └── S5_Contato/
-│   │   │       └── icons/
-│   │   └── site.webmanifest
+│   │   │   └── site.webmanifest
+│   │   └── sections/
+│   │       ├── S1_Sobre/
+│   │       ├── S2_Competencias/
+│   │       ├── S3_Experiencia/
+│   │       ├── S4_Projetos/
+│   │       ├── S5_Certificados/
+│   │       └── S6_Contato/
 │   ├── components/
 │   │   ├── Footer.jsx
 │   │   ├── NavBar.jsx
@@ -49,30 +49,35 @@
 │   ├── db/
 │   │   ├── S1_Sobre/
 │   │   │   └── db.js
-│   │   ├── S2_Habilidades/
+│   │   ├── S2_Competencias/
 │   │   │   └── db.js
-│   │   ├── S3_Projetos/
+│   │   ├── S3_Experiencias/
 │   │   │   └── db.js
-│   │   ├── S4_Certificados/
+│   │   ├── S4_Projetos/
 │   │   │   └── db.js
-│   │   └── S5_Contato/
+│   │   ├── S5_Certificados/
+│   │   │   └── db.js
+│   │   └── S6_Contato/
 │   │       └── db.js
 │   ├── sections/
 │   │   ├── S1_Sobre/
 │   │   │   └── S1_Sobre.jsx
-│   │   ├── S2_Habilidades/
+│   │   ├── S2_Competencias/
 │   │   │   ├── Icon.jsx
-│   │   │   └── S2_Habilidades.jsx
-│   │   ├── S3_Projetos/
+│   │   │   └── S2_Competencias.jsx
+│   │   ├── S3_Experiencia/
 │   │   │   ├── Card.jsx
-│   │   │   └── S3_Projetos.jsx
-│   │   ├── S4_Certificados/
+│   │   │   └── S3_Experiencia.jsx
+│   │   ├── S4_Projetos/
 │   │   │   ├── Card.jsx
-│   │   │   └── S4_Certificados.jsx
-│   │   └── S5_Contato/
+│   │   │   └── S4_Projetos.jsx
+│   │   ├── S5_Certificados/
+│   │   │   ├── Card.jsx
+│   │   │   └── S5_Certificados.jsx
+│   │   └── S6_Contato/
 │   │       ├── Formulario.jsx
 │   │       ├── Informacao.jsx
-│   │       └── S5_Contato.jsx
+│   │       └── S6_Contato.jsx
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
