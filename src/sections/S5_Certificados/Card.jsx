@@ -1,40 +1,35 @@
-function Card({ certificado, delay }) {
+function Card({ certificado, isDark, delay }) {
+    const iconeAtual = isDark ? certificado.iconeDark : certificado.iconeLight;
+
     return (
         <div
             data-aos="fade-up"
             data-aos-delay={delay}
             className="flex flex-col justify-between bg-[var(--color-background)] text-[var(--color-primary)] border-[1.5px] border-[var(--color-secondary)] rounded-md"
         >
-            {/* Conteúdo */}
             <div className="p-4">
-                
-                {/* Empresa */}
-                <div className="flex items-center justify-center">
-                    <img
-                        src={certificado.iconeEmpresa}
-                        alt={certificado.nomeEmpresa}
-                        className="mb-5 h-[50px] text-[12px] rounded-md"
-                    />
+
+                <div className="flex justify-between items-center font-semibold">
+                    <div className="flex items-center gap-2">
+                        {iconeAtual && (
+                            <img
+                                src={iconeAtual}
+                                alt={certificado.nomeEmpresa}
+                                className="h-4 w-4 object-contain"
+                            />
+                        )}
+                        <h5 className="text-[12px] font-semibold">{certificado.nomeEmpresa}</h5>
+                    </div>
+                    <span className="block text-[10px] text-[var(--color-gray)]">{certificado.anoEmitido}</span>
                 </div>
 
-                {/* Título */}
-                <h5 className="text-[14px] font-semibold">{certificado.nomeCertificado}</h5>
-
-                {/* Empresa */}
-                <span className="text-[12px] text-[var(--color-gray)] font-semibold">
-                    {certificado.nomeEmpresa}
-                </span>
-
-                {/* Ano */}
-                <span className="block text-[12px] text-[var(--color-gray)]">
-                    {certificado.anoEmitido}
-                </span>
+                <p className="mt-3 text-[10px] text-[var(--color-gray)]">
+                    {certificado.nomeCertificado}
+                </p>
             </div>
 
-            {/* Rodapé */}
             <div className="p-4 py-2 flex justify-end items-center border-t-[1.5px] border-[var(--color-secondary)]">
-                
-                {/* Botão para abrir o LinkedIn */}
+
                 {certificado.links?.linkedin && (
                     <a
                         href={certificado.links.linkedin}
