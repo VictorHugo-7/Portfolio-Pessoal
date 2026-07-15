@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Formulario from "./Formulario";
 import Informacao from "./Informacao";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,7 +19,14 @@ function S6_Contato() {
                 Contato
             </h5>
 
-            <Informacao />
+            <div className="flex flex-col lg:flex-row justify-between gap-5">
+                <div className="w-full lg:w-[75%]">
+                    <Formulario />
+                </div>
+                <div className="w-full lg:w-[25%]">
+                    <Informacao />
+                </div>
+            </div>
         </div>
     );
 }

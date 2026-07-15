@@ -83,11 +83,11 @@ function Formulario() {
 
     return (
         <div data-aos="fade-up" data-aos-delay="100">
-            <div className="h-full border-[var(--color-secondary)] rounded-md space-y-4">
+            <div className="h-full rounded-md space-y-6 border-[1.5px] border-[var(--color-secondary)] rounded-md p-5">
                 {/* Nome */}
                 <div className="rounded-md">
-                    <div className="p-2 flex items-center border-[1.5px] border-[var(--color-secondary)] rounded-md">
-                        <User className="w-5 h-5 text-[var(--color-gray)] mr-2" />
+                    <div className="group p-2 flex items-center border-b-2 border-[var(--color-secondary)] focus-within:border-[var(--color-highlight)] transition-colors duration-300">
+                        <User className="w-5 h-5 text-[var(--color-gray)] group-focus-within:text-[var(--color-highlight)] mr-2 transition-colors duration-300" />
                         <input
                             type="text"
                             id="nome"
@@ -105,8 +105,8 @@ function Formulario() {
 
                 {/* Email */}
                 <div className="rounded-md">
-                    <div className="p-2 flex items-center border-[1.5px] border-[var(--color-secondary)] rounded-md">
-                        <Mail className="w-5 h-5 text-[var(--color-gray)] mr-2" />
+                    <div className="group p-2 flex items-center border-b-2 border-[var(--color-secondary)] focus-within:border-[var(--color-highlight)] transition-colors duration-300">
+                        <Mail className="w-5 h-5 text-[var(--color-gray)] group-focus-within:text-[var(--color-highlight)] mr-2 transition-colors duration-300" />
                         <input
                             type="email"
                             id="email"
@@ -124,8 +124,8 @@ function Formulario() {
 
                 {/* Assunto */}
                 <div className="rounded-md">
-                    <div className="p-2 flex items-center border-[1.5px] border-[var(--color-secondary)] rounded-md">
-                        <FileText className="w-5 h-5 text-[var(--color-gray)] mr-2" />
+                    <div className="group p-2 flex items-center border-b-2 border-[var(--color-secondary)] focus-within:border-[var(--color-highlight)] transition-colors duration-300">
+                        <FileText className="w-5 h-5 text-[var(--color-gray)] group-focus-within:text-[var(--color-highlight)] mr-2 transition-colors duration-300" />
                         <input
                             type="text"
                             id="assunto"
@@ -142,8 +142,8 @@ function Formulario() {
 
                 {/* Mensagem */}
                 <div className="rounded-md">
-                    <div className="p-2 flex items-start border-[1.5px] border-[var(--color-secondary)] rounded-md">
-                        <MessageSquare className="w-5 h-5 text-[var(--color-gray)] mr-2 mt-1" />
+                    <div className="group p-2 flex items-start border-b-2 border-[var(--color-secondary)] focus-within:border-[var(--color-highlight)] transition-colors duration-300">
+                        <MessageSquare className="w-5 h-5 text-[var(--color-gray)] group-focus-within:text-[var(--color-highlight)] mr-2 mt-1 transition-colors duration-300" />
                         <textarea
                             id="mensagem"
                             name="mensagem"

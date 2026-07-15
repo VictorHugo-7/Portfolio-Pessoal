@@ -9,7 +9,7 @@ function Informacao() {
     }, []);
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="h-full flex flex-col justify-between gap-4">
             {dados.contato.map((contato, index) => (
                 <div
                     key={index}
