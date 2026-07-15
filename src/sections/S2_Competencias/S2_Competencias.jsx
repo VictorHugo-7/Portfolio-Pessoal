@@ -1,15 +1,15 @@
 import { useEffect } from "react";
-import dados from "../../db/S2_Habilidades/db.js";
-import Icon from "./Icon";
+import dados from "../../db/S2_Competencias/db.js";
+import Icon from "./Icon.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function S2_Habilidades({ isDark }) {
+function S2_Competencias({ isDark }) {
     const grupoTamanho = 11;
-    const habilidadesEmGrupos = [];
+    const CompetenciasEmGrupos = [];
 
-    for (let i = 0; i < dados.habilidades.length; i += grupoTamanho) 
-        habilidadesEmGrupos.push(dados.habilidades.slice(i, i + grupoTamanho));
+    for (let i = 0; i < dados.competencias.length; i += grupoTamanho) 
+    CompetenciasEmGrupos.push(dados.competencias.slice(i, i + grupoTamanho));
 
     useEffect(() => {
         AOS.init({
@@ -27,14 +27,14 @@ function S2_Habilidades({ isDark }) {
                            after:absolute after:block after:bg-[var(--color-highlight)] after:content-[''] 
                            after:rounded-full after:w-8 after:h-1 after:mt-1 after:left-0"
             >
-                Habilidades
+                Competências
             </h5>
 
-            <div className="flex flex-col gap-4">
-                {habilidadesEmGrupos.map((grupo, indexGrupo) => (
+            <div>
+                {CompetenciasEmGrupos.map((grupo, indexGrupo) => (
                     <div
                         key={indexGrupo}
-                        className="flex flex-wrap justify-between gap-2"
+                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6"
                         data-aos="fade-up"
                         data-aos-delay={100 * (indexGrupo + 1)}
                     >
@@ -52,4 +52,4 @@ function S2_Habilidades({ isDark }) {
     );
 }
 
-export default S2_Habilidades;
+export default S2_Competencias;
