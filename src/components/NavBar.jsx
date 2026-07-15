@@ -29,11 +29,16 @@ function NavBar({ isDark, setIsDark }) {
         const detectarSecaoAtiva = () => {
             const secoes = ['sobre', 'competencias', 'experiencias', 'projetos', 'certificados', 'contato'];
             const scrollPos = window.scrollY + 150;
+
+            const elementoContato = document.getElementById('contato');
             const alturaTotal = document.documentElement.scrollHeight;
             const alturaVisivel = window.innerHeight;
             const scrollAtual = window.scrollY;
 
-            if (scrollAtual + alturaVisivel >= alturaTotal - 50) {
+            const chegouNoFim = scrollAtual + alturaVisivel >= alturaTotal - 2;
+            const chegouEmContato = elementoContato && scrollPos >= elementoContato.offsetTop;
+
+            if (chegouEmContato || chegouNoFim) {
                 setSecaoAtiva('contato');
                 return;
             }
